@@ -1,0 +1,78 @@
+{
+  "uid" : "1a26c78701f6c9ea",
+  "name" : "test_tolqmc8a7skh_PostCoupons",
+  "fullName" : "stripeCreateCoupon_allFaultyParametersIgnoreDependencies.StripeTest_sl8z3tlte81d.test_tolqmc8a7skh_PostCoupons",
+  "historyId" : "82367a36cb28fed20c754b7132fea8c",
+  "time" : {
+    "start" : 1586941539533,
+    "stop" : 1586941540017,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ed830e5a4546ccc",
+      "name" : "Request",
+      "source" : "1ed830e5a4546ccc.html",
+      "type" : "text/html",
+      "size" : 561
+    }, {
+      "uid" : "a6f6402f5f38b17",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "a6f6402f5f38b17.html",
+      "type" : "text/html",
+      "size" : 1364
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "stripeCreateCoupon_allFaultyParametersIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "stripeCreateCoupon_allFaultyParametersIgnoreDependencies.StripeTest_sl8z3tlte81d"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_tolqmc8a7skh_PostCoupons"
+  }, {
+    "name" : "suite",
+    "value" : "stripeCreateCoupon_allFaultyParametersIgnoreDependencies.StripeTest_sl8z3tlte81d"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "33644@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a26c78701f6c9ea.json",
+  "parameterValues" : [ ]
+}

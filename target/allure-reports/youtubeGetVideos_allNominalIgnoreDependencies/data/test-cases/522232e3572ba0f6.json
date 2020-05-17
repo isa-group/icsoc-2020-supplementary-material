@@ -1,0 +1,78 @@
+{
+  "uid" : "522232e3572ba0f6",
+  "name" : "test_qe73eeyl6tdd_youtubevideoslist",
+  "fullName" : "youtubeGetVideos_allNominalIgnoreDependencies.YouTubeGetVideosTest_rhdcct18i4vq.test_qe73eeyl6tdd_youtubevideoslist",
+  "historyId" : "53d65e9dc105005afc85866a2fdb7693",
+  "time" : {
+    "start" : 1587038346462,
+    "stop" : 1587038346623,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "66c210b5849c375c",
+      "name" : "Request",
+      "source" : "66c210b5849c375c.html",
+      "type" : "text/html",
+      "size" : 555
+    }, {
+      "uid" : "df74bac90e7154cb",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "df74bac90e7154cb.html",
+      "type" : "text/html",
+      "size" : 1654
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeGetVideos_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeGetVideos_allNominalIgnoreDependencies.YouTubeGetVideosTest_rhdcct18i4vq"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qe73eeyl6tdd_youtubevideoslist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeGetVideos_allNominalIgnoreDependencies.YouTubeGetVideosTest_rhdcct18i4vq"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "8464@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "522232e3572ba0f6.json",
+  "parameterValues" : [ ]
+}

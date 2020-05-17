@@ -1,0 +1,78 @@
+{
+  "uid" : "aee1900d64fa23a2",
+  "name" : "test_vbmxt79oq78y_PostProducts",
+  "fullName" : "stripeCreateProduct_allFaultyHalfHalfOriginalDependencies.StripeTest_1iusq5exft2sm.test_vbmxt79oq78y_PostProducts",
+  "historyId" : "da4a9ac3636240d62b71c0007ec88baa",
+  "time" : {
+    "start" : 1587399477333,
+    "stop" : 1587399477817,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ca1dbde4b068e28",
+      "name" : "Request",
+      "source" : "6ca1dbde4b068e28.html",
+      "type" : "text/html",
+      "size" : 563
+    }, {
+      "uid" : "1aae69c1c77736df",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "1aae69c1c77736df.html",
+      "type" : "text/html",
+      "size" : 1402
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "stripeCreateProduct_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "stripeCreateProduct_allFaultyHalfHalfOriginalDependencies.StripeTest_1iusq5exft2sm"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_vbmxt79oq78y_PostProducts"
+  }, {
+    "name" : "suite",
+    "value" : "stripeCreateProduct_allFaultyHalfHalfOriginalDependencies.StripeTest_1iusq5exft2sm"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "21024@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aee1900d64fa23a2.json",
+  "parameterValues" : [ ]
+}

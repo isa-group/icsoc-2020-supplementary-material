@@ -1,0 +1,78 @@
+{
+  "uid" : "a4bff3dcfcb7df70",
+  "name" : "test_qhql1gtx53dt_PostCoupons",
+  "fullName" : "stripeCreateCoupon_allNominalIgnoreDependencies.StripeTest_t4icodpynw4m.test_qhql1gtx53dt_PostCoupons",
+  "historyId" : "185a0d511ef745c46a1ea39901712883",
+  "time" : {
+    "start" : 1586952321776,
+    "stop" : 1586952322263,
+    "duration" : 487
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ac2311eb501dab08",
+      "name" : "Request",
+      "source" : "ac2311eb501dab08.html",
+      "type" : "text/html",
+      "size" : 561
+    }, {
+      "uid" : "3dc5cbb007554eb1",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "3dc5cbb007554eb1.html",
+      "type" : "text/html",
+      "size" : 1206
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "stripeCreateCoupon_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "stripeCreateCoupon_allNominalIgnoreDependencies.StripeTest_t4icodpynw4m"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qhql1gtx53dt_PostCoupons"
+  }, {
+    "name" : "suite",
+    "value" : "stripeCreateCoupon_allNominalIgnoreDependencies.StripeTest_t4icodpynw4m"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "2776@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4bff3dcfcb7df70.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "cf6eb3afe08e699e",
+  "name" : "test_qhklw70oxi61_getUserRepos",
+  "fullName" : "githubGetUserRepos_allFaultyHalfHalfOriginalDependencies.GitHubTest_rl2cr2k7wqi8.test_qhklw70oxi61_getUserRepos",
+  "historyId" : "99bf2e6b2ef56254e66f4183eb0342c0",
+  "time" : {
+    "start" : 1587385737710,
+    "stop" : 1587385738119,
+    "duration" : 409
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6416f233a5238d6e",
+      "name" : "Request",
+      "source" : "6416f233a5238d6e.html",
+      "type" : "text/html",
+      "size" : 571
+    }, {
+      "uid" : "b57f744bcb5e5214",
+      "name" : "HTTP/1.1 422 Unprocessable Entity",
+      "source" : "b57f744bcb5e5214.html",
+      "type" : "text/html",
+      "size" : 1956
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "githubGetUserRepos_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "githubGetUserRepos_allFaultyHalfHalfOriginalDependencies.GitHubTest_rl2cr2k7wqi8"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qhklw70oxi61_getUserRepos"
+  }, {
+    "name" : "suite",
+    "value" : "githubGetUserRepos_allFaultyHalfHalfOriginalDependencies.GitHubTest_rl2cr2k7wqi8"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "7524@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf6eb3afe08e699e.json",
+  "parameterValues" : [ ]
+}

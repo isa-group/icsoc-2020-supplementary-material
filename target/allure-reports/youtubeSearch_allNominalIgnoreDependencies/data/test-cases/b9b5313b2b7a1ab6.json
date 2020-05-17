@@ -1,0 +1,78 @@
+{
+  "uid" : "b9b5313b2b7a1ab6",
+  "name" : "test_rh51t08y92k3_youtubesearchlist",
+  "fullName" : "youtubeSearch_allNominalIgnoreDependencies.YouTubeTest_ubj4ptcrc5lt.test_rh51t08y92k3_youtubesearchlist",
+  "historyId" : "39948d147315ab5771eb59fcc1a3c9fe",
+  "time" : {
+    "start" : 1587713773679,
+    "stop" : 1587713774104,
+    "duration" : 425
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f61b7473ed83d8dc",
+      "name" : "Request",
+      "source" : "f61b7473ed83d8dc.html",
+      "type" : "text/html",
+      "size" : 1185
+    }, {
+      "uid" : "18b6e245d082a78d",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "18b6e245d082a78d.html",
+      "type" : "text/html",
+      "size" : 3256
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeSearch_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeSearch_allNominalIgnoreDependencies.YouTubeTest_ubj4ptcrc5lt"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_rh51t08y92k3_youtubesearchlist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeSearch_allNominalIgnoreDependencies.YouTubeTest_ubj4ptcrc5lt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "7932@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9b5313b2b7a1ab6.json",
+  "parameterValues" : [ ]
+}

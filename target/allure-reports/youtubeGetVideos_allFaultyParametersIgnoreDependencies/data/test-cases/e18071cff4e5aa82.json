@@ -1,0 +1,78 @@
+{
+  "uid" : "e18071cff4e5aa82",
+  "name" : "test_1h7tqj4wk7705_youtubevideoslist",
+  "fullName" : "youtubeGetVideos_allFaultyParametersIgnoreDependencies.YouTubeGetVideosTest_1jyit4cbnmdrs.test_1h7tqj4wk7705_youtubevideoslist",
+  "historyId" : "12eb7a9ca8b512c365990cf88899000",
+  "time" : {
+    "start" : 1587039441342,
+    "stop" : 1587039441558,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23abb7d338f880d1",
+      "name" : "Request",
+      "source" : "23abb7d338f880d1.html",
+      "type" : "text/html",
+      "size" : 527
+    }, {
+      "uid" : "5162db0ae9ba8c08",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "5162db0ae9ba8c08.html",
+      "type" : "text/html",
+      "size" : 1674
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeGetVideos_allFaultyParametersIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeGetVideos_allFaultyParametersIgnoreDependencies.YouTubeGetVideosTest_1jyit4cbnmdrs"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1h7tqj4wk7705_youtubevideoslist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeGetVideos_allFaultyParametersIgnoreDependencies.YouTubeGetVideosTest_1jyit4cbnmdrs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "22524@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e18071cff4e5aa82.json",
+  "parameterValues" : [ ]
+}

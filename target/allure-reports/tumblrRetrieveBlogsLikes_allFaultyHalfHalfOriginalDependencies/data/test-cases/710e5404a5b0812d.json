@@ -1,0 +1,78 @@
+{
+  "uid" : "710e5404a5b0812d",
+  "name" : "test_u7znk1fd6ddf_getBlogLikes",
+  "fullName" : "tumblrRetrieveBlogsLikes_allFaultyHalfHalfOriginalDependencies.TumblrTest_qe3vnfmcry3n.test_u7znk1fd6ddf_getBlogLikes",
+  "historyId" : "130003c16527e361c5b88d9dcde8d739",
+  "time" : {
+    "start" : 1587383293674,
+    "stop" : 1587383293935,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ccb97ea62c9953f",
+      "name" : "Request",
+      "source" : "9ccb97ea62c9953f.html",
+      "type" : "text/html",
+      "size" : 475
+    }, {
+      "uid" : "6010a11c5b6f8e3",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "6010a11c5b6f8e3.html",
+      "type" : "text/html",
+      "size" : 1185
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tumblrRetrieveBlogsLikes_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "tumblrRetrieveBlogsLikes_allFaultyHalfHalfOriginalDependencies.TumblrTest_qe3vnfmcry3n"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_u7znk1fd6ddf_getBlogLikes"
+  }, {
+    "name" : "suite",
+    "value" : "tumblrRetrieveBlogsLikes_allFaultyHalfHalfOriginalDependencies.TumblrTest_qe3vnfmcry3n"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "19376@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "710e5404a5b0812d.json",
+  "parameterValues" : [ ]
+}

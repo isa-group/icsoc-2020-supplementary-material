@@ -1,0 +1,78 @@
+{
+  "uid" : "a784be3855e716e0",
+  "name" : "test_qy1nb7mzh012_PostProducts",
+  "fullName" : "stripeCreateProduct_allFaultyParametersIgnoreDependencies.StripeTest_1jeqi79liwhm8.test_qy1nb7mzh012_PostProducts",
+  "historyId" : "83b86ad4532940b1ad72b85d20a68075",
+  "time" : {
+    "start" : 1586943289453,
+    "stop" : 1586943289965,
+    "duration" : 512
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7d4d794986c4e6f",
+      "name" : "Request",
+      "source" : "c7d4d794986c4e6f.html",
+      "type" : "text/html",
+      "size" : 563
+    }, {
+      "uid" : "e3e7dbf8d7625d7f",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "e3e7dbf8d7625d7f.html",
+      "type" : "text/html",
+      "size" : 1399
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "stripeCreateProduct_allFaultyParametersIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "stripeCreateProduct_allFaultyParametersIgnoreDependencies.StripeTest_1jeqi79liwhm8"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qy1nb7mzh012_PostProducts"
+  }, {
+    "name" : "suite",
+    "value" : "stripeCreateProduct_allFaultyParametersIgnoreDependencies.StripeTest_1jeqi79liwhm8"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "16284@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a784be3855e716e0.json",
+  "parameterValues" : [ ]
+}

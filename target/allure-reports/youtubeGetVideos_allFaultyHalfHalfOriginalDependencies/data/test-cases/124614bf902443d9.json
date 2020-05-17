@@ -1,0 +1,78 @@
+{
+  "uid" : "124614bf902443d9",
+  "name" : "test_u8aqnmo32sz7_youtubevideoslist",
+  "fullName" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd.test_u8aqnmo32sz7_youtubevideoslist",
+  "historyId" : "a5f4313bf4b7e0283d53724fe783765a",
+  "time" : {
+    "start" : 1587402764644,
+    "stop" : 1587402764800,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bec80dfae9977ff3",
+      "name" : "Request",
+      "source" : "bec80dfae9977ff3.html",
+      "type" : "text/html",
+      "size" : 747
+    }, {
+      "uid" : "d1962ea1a69cc7cf",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "d1962ea1a69cc7cf.html",
+      "type" : "text/html",
+      "size" : 1619
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_u8aqnmo32sz7_youtubevideoslist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "25120@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "124614bf902443d9.json",
+  "parameterValues" : [ ]
+}

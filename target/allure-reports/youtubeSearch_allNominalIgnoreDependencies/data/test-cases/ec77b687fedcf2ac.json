@@ -1,0 +1,78 @@
+{
+  "uid" : "ec77b687fedcf2ac",
+  "name" : "test_1hv8smix3am2a_youtubesearchlist",
+  "fullName" : "youtubeSearch_allNominalIgnoreDependencies.YouTubeTest_ubj4ptcrc5lt.test_1hv8smix3am2a_youtubesearchlist",
+  "historyId" : "9a378189f76aaf6cba4b548a3a52b021",
+  "time" : {
+    "start" : 1587713637733,
+    "stop" : 1587713638031,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b7c8a954f087bb7",
+      "name" : "Request",
+      "source" : "2b7c8a954f087bb7.html",
+      "type" : "text/html",
+      "size" : 1063
+    }, {
+      "uid" : "30f0789e03e451e4",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "30f0789e03e451e4.html",
+      "type" : "text/html",
+      "size" : 3256
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeSearch_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeSearch_allNominalIgnoreDependencies.YouTubeTest_ubj4ptcrc5lt"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1hv8smix3am2a_youtubesearchlist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeSearch_allNominalIgnoreDependencies.YouTubeTest_ubj4ptcrc5lt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "7932@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec77b687fedcf2ac.json",
+  "parameterValues" : [ ]
+}

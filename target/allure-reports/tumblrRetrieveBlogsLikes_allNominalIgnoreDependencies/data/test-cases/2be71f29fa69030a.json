@@ -1,0 +1,78 @@
+{
+  "uid" : "2be71f29fa69030a",
+  "name" : "test_tnyzd8e1b12v_getBlogLikes",
+  "fullName" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies.TumblrTest_1jy88q2ckhjqx.test_tnyzd8e1b12v_getBlogLikes",
+  "historyId" : "4fcb1f78babb067c1be301212212d845",
+  "time" : {
+    "start" : 1586890706912,
+    "stop" : 1586890707163,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b172f3c82d0d098",
+      "name" : "Request",
+      "source" : "9b172f3c82d0d098.html",
+      "type" : "text/html",
+      "size" : 501
+    }, {
+      "uid" : "21657b58570f4929",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "21657b58570f4929.html",
+      "type" : "text/html",
+      "size" : 1184
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies.TumblrTest_1jy88q2ckhjqx"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_tnyzd8e1b12v_getBlogLikes"
+  }, {
+    "name" : "suite",
+    "value" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies.TumblrTest_1jy88q2ckhjqx"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "26792@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2be71f29fa69030a.json",
+  "parameterValues" : [ ]
+}

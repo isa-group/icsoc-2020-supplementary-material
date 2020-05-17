@@ -1,0 +1,78 @@
+{
+  "uid" : "714edd7b76045ca9",
+  "name" : "test_1h7qzutnnuhiw_youtubecommentThreadslist",
+  "fullName" : "youtubeGetCommentThreads_allFaultyParametersIgnoreDependencies.YouTubeGetCommentThreadsTest_1jyds76y4t6wo.test_1h7qzutnnuhiw_youtubecommentThreadslist",
+  "historyId" : "8313a6ac19c940408e863c48afbde464",
+  "time" : {
+    "start" : 1587051649324,
+    "stop" : 1587051649479,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6cd116e6a0f059e",
+      "name" : "Request",
+      "source" : "c6cd116e6a0f059e.html",
+      "type" : "text/html",
+      "size" : 529
+    }, {
+      "uid" : "5e15b271771c7855",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "5e15b271771c7855.html",
+      "type" : "text/html",
+      "size" : 1563
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeGetCommentThreads_allFaultyParametersIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeGetCommentThreads_allFaultyParametersIgnoreDependencies.YouTubeGetCommentThreadsTest_1jyds76y4t6wo"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1h7qzutnnuhiw_youtubecommentThreadslist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeGetCommentThreads_allFaultyParametersIgnoreDependencies.YouTubeGetCommentThreadsTest_1jyds76y4t6wo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "16368@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "714edd7b76045ca9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "c151ab0ac0eb0dc1",
+  "name" : "test_soppqzjskorm_searchVenues",
+  "fullName" : "foursquareSearchVenues_allFaultyHalfHalfOriginalDependencies.FoursquareTest_1iyex83xb9smo.test_soppqzjskorm_searchVenues",
+  "historyId" : "ba6e88b147d77ff3f1287df318c50c17",
+  "time" : {
+    "start" : 1587388897195,
+    "stop" : 1587388897651,
+    "duration" : 456
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a4e3d0845d5ef8f9",
+      "name" : "Request",
+      "source" : "a4e3d0845d5ef8f9.html",
+      "type" : "text/html",
+      "size" : 931
+    }, {
+      "uid" : "eb929e06548ce239",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "eb929e06548ce239.html",
+      "type" : "text/html",
+      "size" : 1170
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "foursquareSearchVenues_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "foursquareSearchVenues_allFaultyHalfHalfOriginalDependencies.FoursquareTest_1iyex83xb9smo"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_soppqzjskorm_searchVenues"
+  }, {
+    "name" : "suite",
+    "value" : "foursquareSearchVenues_allFaultyHalfHalfOriginalDependencies.FoursquareTest_1iyex83xb9smo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "22000@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c151ab0ac0eb0dc1.json",
+  "parameterValues" : [ ]
+}

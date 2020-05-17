@@ -1,0 +1,78 @@
+{
+  "uid" : "a2659eee6a1fe2bb",
+  "name" : "test_u82g16tvpzz9_getBlogLikes",
+  "fullName" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies.TumblrTest_1jy88q2ckhjqx.test_u82g16tvpzz9_getBlogLikes",
+  "historyId" : "82052fbfcbb04d3e4885bd4f9c18ae04",
+  "time" : {
+    "start" : 1586890731643,
+    "stop" : 1586890731892,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb274ebec36b6913",
+      "name" : "Request",
+      "source" : "eb274ebec36b6913.html",
+      "type" : "text/html",
+      "size" : 501
+    }, {
+      "uid" : "cb3538cd88d34ec7",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "cb3538cd88d34ec7.html",
+      "type" : "text/html",
+      "size" : 1185
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies.TumblrTest_1jy88q2ckhjqx"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_u82g16tvpzz9_getBlogLikes"
+  }, {
+    "name" : "suite",
+    "value" : "tumblrRetrieveBlogsLikes_allNominalIgnoreDependencies.TumblrTest_1jy88q2ckhjqx"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "26792@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2659eee6a1fe2bb.json",
+  "parameterValues" : [ ]
+}

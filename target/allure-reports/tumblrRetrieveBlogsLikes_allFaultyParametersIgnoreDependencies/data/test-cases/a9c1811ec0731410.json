@@ -1,0 +1,78 @@
+{
+  "uid" : "a9c1811ec0731410",
+  "name" : "test_u8050sxmyn36_getBlogLikes",
+  "fullName" : "tumblrRetrieveBlogsLikes_allFaultyParametersIgnoreDependencies.TumblrTest_1jewm0wr300o3.test_u8050sxmyn36_getBlogLikes",
+  "historyId" : "b23d5361f5e1564a670c1595199939e3",
+  "time" : {
+    "start" : 1586905824987,
+    "stop" : 1586905825254,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc564736fab36ed0",
+      "name" : "Request",
+      "source" : "cc564736fab36ed0.html",
+      "type" : "text/html",
+      "size" : 535
+    }, {
+      "uid" : "f466abac67c0b3d5",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "f466abac67c0b3d5.html",
+      "type" : "text/html",
+      "size" : 1185
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tumblrRetrieveBlogsLikes_allFaultyParametersIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "tumblrRetrieveBlogsLikes_allFaultyParametersIgnoreDependencies.TumblrTest_1jewm0wr300o3"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_u8050sxmyn36_getBlogLikes"
+  }, {
+    "name" : "suite",
+    "value" : "tumblrRetrieveBlogsLikes_allFaultyParametersIgnoreDependencies.TumblrTest_1jewm0wr300o3"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "34000@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9c1811ec0731410.json",
+  "parameterValues" : [ ]
+}

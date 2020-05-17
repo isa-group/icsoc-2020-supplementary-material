@@ -1,0 +1,101 @@
+{
+  "uid" : "1322f108c0c1652e",
+  "name" : "test_t4q3qd6pn6ex_youtubevideoslist",
+  "fullName" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd.test_t4q3qd6pn6ex_youtubevideoslist",
+  "historyId" : "9c1f83f246f267ac2606ce8c594caee3",
+  "time" : {
+    "start" : 1587402737874,
+    "stop" : 1587402738073,
+    "duration" : 199
+  },
+  "status" : "failed",
+  "statusMessage" : "This faulty test case was expecting a 4XX status code(inter_parameter_dependency), but received other. Conformance error found.",
+  "statusTrace" : "java.lang.AssertionError: This faulty test case was expecting a 4XX status code(inter_parameter_dependency), but received other. Conformance error found.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd.test_t4q3qd6pn6ex_youtubevideoslist(YouTubeGetVideosTest_rl5lli4c10zd.java:7603)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\r\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:143)\r\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:74)\r\n\tat es.us.isa.restest.main.IterativeExample.main(IterativeExample.java:86)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "This faulty test case was expecting a 4XX status code(inter_parameter_dependency), but received other. Conformance error found.",
+    "statusTrace" : "java.lang.AssertionError: This faulty test case was expecting a 4XX status code(inter_parameter_dependency), but received other. Conformance error found.\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd.test_t4q3qd6pn6ex_youtubevideoslist(YouTubeGetVideosTest_rl5lli4c10zd.java:7603)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\r\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:143)\r\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:74)\r\n\tat es.us.isa.restest.main.IterativeExample.main(IterativeExample.java:86)\r\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80becbf4fbce3c7f",
+      "name" : "Request",
+      "source" : "80becbf4fbce3c7f.html",
+      "type" : "text/html",
+      "size" : 493
+    }, {
+      "uid" : "58a95fda7002b502",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "58a95fda7002b502.html",
+      "type" : "text/html",
+      "size" : 2113
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_t4q3qd6pn6ex_youtubevideoslist"
+  }, {
+    "name" : "suite",
+    "value" : "youtubeGetVideos_allFaultyHalfHalfOriginalDependencies.YouTubeGetVideosTest_rl5lli4c10zd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "25120@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Faulty test cases failures",
+      "messageRegex" : ".*faulty test case.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Faulty test case failed (inter_parameter_dependency)",
+      "messageRegex" : ".*inter_parameter_dependency.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Conformance errors",
+      "messageRegex" : ".*Conformance error.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Failures",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1322f108c0c1652e.json",
+  "parameterValues" : [ ]
+}

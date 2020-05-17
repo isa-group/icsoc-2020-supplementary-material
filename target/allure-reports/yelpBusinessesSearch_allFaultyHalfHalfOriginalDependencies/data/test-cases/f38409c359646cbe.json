@@ -1,0 +1,78 @@
+{
+  "uid" : "f38409c359646cbe",
+  "name" : "test_qhndqj7v3jna_getBusinesses",
+  "fullName" : "yelpBusinessesSearch_allFaultyHalfHalfOriginalDependencies.YelpTest_u7oi1l6lgj02.test_qhndqj7v3jna_getBusinesses",
+  "historyId" : "6d969025eff4ee92c71b4164f34290c5",
+  "time" : {
+    "start" : 1587400036193,
+    "stop" : 1587400036547,
+    "duration" : 354
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c654bc63bdefa935",
+      "name" : "Request",
+      "source" : "c654bc63bdefa935.html",
+      "type" : "text/html",
+      "size" : 1011
+    }, {
+      "uid" : "a69e2fcbef5c1024",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "a69e2fcbef5c1024.html",
+      "type" : "text/html",
+      "size" : 1243
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "yelpBusinessesSearch_allFaultyHalfHalfOriginalDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "yelpBusinessesSearch_allFaultyHalfHalfOriginalDependencies.YelpTest_u7oi1l6lgj02"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qhndqj7v3jna_getBusinesses"
+  }, {
+    "name" : "suite",
+    "value" : "yelpBusinessesSearch_allFaultyHalfHalfOriginalDependencies.YelpTest_u7oi1l6lgj02"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "26444@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f38409c359646cbe.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Valid test cases failures",
+    "children" : [ {
+      "name" : "This test case's input was correct, but received a 400 (Bad Request) status code. Conformance error found.",
+      "children" : [ {
+        "name" : "test_qhiay3nt7t4j_youtubecommentThreadslist",
+        "uid" : "1ad02b124ece4471",
+        "parentUid" : "d3ff7affee7e22278acdac0f9c64d387",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587047467799,
+          "stop" : 1587047474030,
+          "duration" : 6231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3ff7affee7e22278acdac0f9c64d387"
+    } ],
+    "uid" : "0a38e92a4c571f2ed0988d913359ff5c"
+  }, {
+    "name" : "Conformance errors",
+    "children" : [ {
+      "name" : "This test case's input was correct, but received a 400 (Bad Request) status code. Conformance error found.",
+      "children" : [ {
+        "name" : "test_qhiay3nt7t4j_youtubecommentThreadslist",
+        "uid" : "1ad02b124ece4471",
+        "parentUid" : "8761b6025dceca99fe48bb7b2794ede9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587047467799,
+          "stop" : 1587047474030,
+          "duration" : 6231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8761b6025dceca99fe48bb7b2794ede9"
+    } ],
+    "uid" : "eb2832e48caa2f8142adf8ae4ecdbbe1"
+  }, {
+    "name" : "Failures",
+    "children" : [ {
+      "name" : "This test case's input was correct, but received a 400 (Bad Request) status code. Conformance error found.",
+      "children" : [ {
+        "name" : "test_qhiay3nt7t4j_youtubecommentThreadslist",
+        "uid" : "1ad02b124ece4471",
+        "parentUid" : "1b07c8a4d0ec166fcba63b0cd76c94ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587047467799,
+          "stop" : 1587047474030,
+          "duration" : 6231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b07c8a4d0ec166fcba63b0cd76c94ea"
+    }, {
+      "name" : "Validation failed.\n[ERROR] [Path '/items/0/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/2/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/19/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/22/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/32/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])",
+      "children" : [ {
+        "name" : "test_rhtzs847f3ad_youtubecommentThreadslist",
+        "uid" : "a45f222a8d90ef05",
+        "parentUid" : "41f98b954c2b5d08628b0c6b468db713",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587047533796,
+          "stop" : 1587047534837,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41f98b954c2b5d08628b0c6b468db713"
+    } ],
+    "uid" : "6968452898d5879ae96e62a45d6c47f3"
+  }, {
+    "name" : "Validation failures",
+    "children" : [ {
+      "name" : "Validation failed.\n[ERROR] [Path '/items/0/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/2/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/19/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/22/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])\n[ERROR] [Path '/items/32/snippet/topLevelComment/snippet/moderationStatus'] Instance value (\"likelyspam\") not found in enum (possible values: [\"heldForReview\",\"likelySpam\",\"published\",\"rejected\"])",
+      "children" : [ {
+        "name" : "test_rhtzs847f3ad_youtubecommentThreadslist",
+        "uid" : "a45f222a8d90ef05",
+        "parentUid" : "3769153c7ec4d935b071ac785c45f46c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587047533796,
+          "stop" : 1587047534837,
+          "duration" : 1041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3769153c7ec4d935b071ac785c45f46c"
+    } ],
+    "uid" : "9f7fe5f7091fdbf648801a59afd5c2cd"
+  } ]
+}

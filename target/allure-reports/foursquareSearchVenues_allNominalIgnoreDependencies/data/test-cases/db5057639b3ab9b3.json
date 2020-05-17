@@ -1,0 +1,78 @@
+{
+  "uid" : "db5057639b3ab9b3",
+  "name" : "test_rhg39xyxzvxg_searchVenues",
+  "fullName" : "foursquareSearchVenues_allNominalIgnoreDependencies.FoursquareTest_1jeytlnozaa7m.test_rhg39xyxzvxg_searchVenues",
+  "historyId" : "f641e953332cf787294860257aefc5a8",
+  "time" : {
+    "start" : 1586866397675,
+    "stop" : 1586866397962,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5d524527eed65aa",
+      "name" : "Request",
+      "source" : "e5d524527eed65aa.html",
+      "type" : "text/html",
+      "size" : 725
+    }, {
+      "uid" : "ea46bb7c8b653424",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "ea46bb7c8b653424.html",
+      "type" : "text/html",
+      "size" : 1152
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "foursquareSearchVenues_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "foursquareSearchVenues_allNominalIgnoreDependencies.FoursquareTest_1jeytlnozaa7m"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_rhg39xyxzvxg_searchVenues"
+  }, {
+    "name" : "suite",
+    "value" : "foursquareSearchVenues_allNominalIgnoreDependencies.FoursquareTest_1jeytlnozaa7m"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "29376@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db5057639b3ab9b3.json",
+  "parameterValues" : [ ]
+}

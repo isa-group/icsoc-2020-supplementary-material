@@ -1,0 +1,78 @@
+{
+  "uid" : "33f705700344d85c",
+  "name" : "test_qxl2anvg8x80_getBusinesses",
+  "fullName" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb.test_qxl2anvg8x80_getBusinesses",
+  "historyId" : "b86ce6af03fda09795837b7301220687",
+  "time" : {
+    "start" : 1586861683257,
+    "stop" : 1586861683655,
+    "duration" : 398
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c146742ba2b4920",
+      "name" : "Request",
+      "source" : "8c146742ba2b4920.html",
+      "type" : "text/html",
+      "size" : 1007
+    }, {
+      "uid" : "cc60051205d5f38d",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "cc60051205d5f38d.html",
+      "type" : "text/html",
+      "size" : 1176
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qxl2anvg8x80_getBusinesses"
+  }, {
+    "name" : "suite",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "27824@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33f705700344d85c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "fb9ffd729dac0568",
+  "name" : "test_1hr83pcxrpe0k_getBusinesses",
+  "fullName" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb.test_1hr83pcxrpe0k_getBusinesses",
+  "historyId" : "557917b92d07f4cbe9e5c5fdae8ab72d",
+  "time" : {
+    "start" : 1586861481683,
+    "stop" : 1586861482068,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ff7c71185db766",
+      "name" : "Request",
+      "source" : "4ff7c71185db766.html",
+      "type" : "text/html",
+      "size" : 1023
+    }, {
+      "uid" : "bde4176d4de8eaec",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "bde4176d4de8eaec.html",
+      "type" : "text/html",
+      "size" : 1188
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1hr83pcxrpe0k_getBusinesses"
+  }, {
+    "name" : "suite",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "27824@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb9ffd729dac0568.json",
+  "parameterValues" : [ ]
+}

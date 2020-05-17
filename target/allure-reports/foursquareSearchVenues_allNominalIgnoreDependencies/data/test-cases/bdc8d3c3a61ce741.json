@@ -1,0 +1,78 @@
+{
+  "uid" : "bdc8d3c3a61ce741",
+  "name" : "test_1hb7q3ash1yk5_searchVenues",
+  "fullName" : "foursquareSearchVenues_allNominalIgnoreDependencies.FoursquareTest_1jeytlnozaa7m.test_1hb7q3ash1yk5_searchVenues",
+  "historyId" : "b0d4d2c38c2d00b091ac7d26fec7669d",
+  "time" : {
+    "start" : 1586866235612,
+    "stop" : 1586866235913,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e762c53c1187cea6",
+      "name" : "Request",
+      "source" : "e762c53c1187cea6.html",
+      "type" : "text/html",
+      "size" : 683
+    }, {
+      "uid" : "59609d99e230260c",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "59609d99e230260c.html",
+      "type" : "text/html",
+      "size" : 1202
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "foursquareSearchVenues_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "foursquareSearchVenues_allNominalIgnoreDependencies.FoursquareTest_1jeytlnozaa7m"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1hb7q3ash1yk5_searchVenues"
+  }, {
+    "name" : "suite",
+    "value" : "foursquareSearchVenues_allNominalIgnoreDependencies.FoursquareTest_1jeytlnozaa7m"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "29376@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdc8d3c3a61ce741.json",
+  "parameterValues" : [ ]
+}

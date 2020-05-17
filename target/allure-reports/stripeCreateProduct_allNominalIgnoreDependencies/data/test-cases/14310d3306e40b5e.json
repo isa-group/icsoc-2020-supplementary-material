@@ -1,0 +1,78 @@
+{
+  "uid" : "14310d3306e40b5e",
+  "name" : "test_1k1rp3zohwkdz_PostProducts",
+  "fullName" : "stripeCreateProduct_allNominalIgnoreDependencies.StripeTest_vbsi5147h0f7.test_1k1rp3zohwkdz_PostProducts",
+  "historyId" : "ece169242583877b359c9cc3bd293ec5",
+  "time" : {
+    "start" : 1586945466161,
+    "stop" : 1586945466631,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c54dc745335722c2",
+      "name" : "Request",
+      "source" : "c54dc745335722c2.html",
+      "type" : "text/html",
+      "size" : 563
+    }, {
+      "uid" : "ebc6f7ecd4b062c2",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "ebc6f7ecd4b062c2.html",
+      "type" : "text/html",
+      "size" : 1398
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "stripeCreateProduct_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "stripeCreateProduct_allNominalIgnoreDependencies.StripeTest_vbsi5147h0f7"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1k1rp3zohwkdz_PostProducts"
+  }, {
+    "name" : "suite",
+    "value" : "stripeCreateProduct_allNominalIgnoreDependencies.StripeTest_vbsi5147h0f7"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "34684@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14310d3306e40b5e.json",
+  "parameterValues" : [ ]
+}

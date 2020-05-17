@@ -1,0 +1,78 @@
+{
+  "uid" : "6c687874eaaefca4",
+  "name" : "test_qe746fl7b50w_getUserRepos",
+  "fullName" : "githubGetUserRepos_allNominalIgnoreDependencies.GitHubTest_t4l3nx3zrlmb.test_qe746fl7b50w_getUserRepos",
+  "historyId" : "9bb0090cf620938fb9ca15e121441fc0",
+  "time" : {
+    "start" : 1586884348777,
+    "stop" : 1586884349633,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c82ca8f20d680c8",
+      "name" : "Request",
+      "source" : "7c82ca8f20d680c8.html",
+      "type" : "text/html",
+      "size" : 529
+    }, {
+      "uid" : "a62207aa2aa05f58",
+      "name" : "HTTP/1.1 422 Unprocessable Entity",
+      "source" : "a62207aa2aa05f58.html",
+      "type" : "text/html",
+      "size" : 1956
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "githubGetUserRepos_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "githubGetUserRepos_allNominalIgnoreDependencies.GitHubTest_t4l3nx3zrlmb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qe746fl7b50w_getUserRepos"
+  }, {
+    "name" : "suite",
+    "value" : "githubGetUserRepos_allNominalIgnoreDependencies.GitHubTest_t4l3nx3zrlmb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "23792@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c687874eaaefca4.json",
+  "parameterValues" : [ ]
+}

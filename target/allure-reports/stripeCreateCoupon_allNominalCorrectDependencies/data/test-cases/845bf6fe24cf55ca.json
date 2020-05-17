@@ -1,0 +1,78 @@
+{
+  "uid" : "845bf6fe24cf55ca",
+  "name" : "test_qe9f79mgkoc3_PostCoupons",
+  "fullName" : "stripeCreateCoupon_allNominalCorrectDependencies.StripeTest_urmc4471qgc7.test_qe9f79mgkoc3_PostCoupons",
+  "historyId" : "4dfb601328d104edbc0c40f59237c825",
+  "time" : {
+    "start" : 1586976761383,
+    "stop" : 1586976761900,
+    "duration" : 517
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "456eae53ef7559c8",
+      "name" : "Request",
+      "source" : "456eae53ef7559c8.html",
+      "type" : "text/html",
+      "size" : 561
+    }, {
+      "uid" : "a69f9c04a04c8666",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "a69f9c04a04c8666.html",
+      "type" : "text/html",
+      "size" : 1579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "stripeCreateCoupon_allNominalCorrectDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "stripeCreateCoupon_allNominalCorrectDependencies.StripeTest_urmc4471qgc7"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_qe9f79mgkoc3_PostCoupons"
+  }, {
+    "name" : "suite",
+    "value" : "stripeCreateCoupon_allNominalCorrectDependencies.StripeTest_urmc4471qgc7"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "21516@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "845bf6fe24cf55ca.json",
+  "parameterValues" : [ ]
+}

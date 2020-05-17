@@ -1,0 +1,1001 @@
+testResultId,statusCode,responseBody,outputContentType
+test_1h7fu0r4w71a0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h7fuettyuss1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'VVouTiVVOddD' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""VVouTiVVOddD""}}",application/json
+test_1h7gdl55vp6i9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h7gdwtfqn2nn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h7j4z1v1i437_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h7j654t6ltfc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'dnoqDcDWYaitDv' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""dnoqDcDWYaitDv""}}",application/json
+test_1h7ld9bxcvzok_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'wCRCJpowzMwriYNx' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""wCRCJpowzMwriYNx""}}",application/json
+test_1h7le1g3xsr3k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'9424' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""9424""}}",application/json
+test_1h7lf7lqwy8v8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h7o51654w3tx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_1h7o5cwcn4j8m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ogOsztjQpW' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""ogOsztjQpW""}}",application/json
+test_1h7o5f6waa9f6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40005 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40005}}",application/json
+test_1h7o8344wygqb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'9574' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""9574""}}",application/json
+test_1h7oo4q1rfdit_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ElIZGQzEuUikCCfYK' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""ElIZGQzEuUikCCfYK""}}",application/json
+test_1h7opaxd6de7s_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_1h7opm66zwzsl_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1h7rhutdimstg_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1h7townm3135e_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'7808' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""7808""}}",application/json
+test_1h7tqgaolqpnm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h7tqj98tq15t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1h7u7lvbz30on_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""56 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 56}}",application/json
+test_1h7u8rqs52q7l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'FpzQWpaUWMLOa' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""FpzQWpaUWMLOa""}}",application/json
+test_1h7wgaasuoj8m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1302' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1302""}}",application/json
+test_1h7wh254i7qle_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1h7wh51d7ps1i_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -116.666664, ""latitude"": 34.93186}}}",application/json
+test_1h7x05uz9xoom_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'rvgIvyYidiPUlyruhZV' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""rvgIvyYidiPUlyruhZV""}}",application/json
+test_1h7zagrq4wspv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_1h7zbmvff3sxd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'viaMpcWocGGHLHcnukk' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""viaMpcWocGGHLHcnukk""}}",application/json
+test_1h7zss87lijqe_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -5.985832214355469, ""latitude"": 37.38897024983557}}}",application/json
+test_1h8208556kz74_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'EjzIhRvbkDHCtLTmIK' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""EjzIhRvbkDHCtLTmIK""}}",application/json
+test_1h822ke6m6ipl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h823c45vn2uq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h82jpomg8ugn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1h84rzxfldflf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'JIUxzIcdPI' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""JIUxzIcdPI""}}",application/json
+test_1h84uemu5uvjo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ZlCSASwNoOtbFeQWbMH' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""ZlCSASwNoOtbFeQWbMH""}}",application/json
+test_1h84uslm084tg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hb7o5d5d1201_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hb7o5jg1xt9i_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hb7ojmifwhmg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""false""}}",application/json
+test_1hb86uoh3u43a_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ItadqEjpwpWFSUsGVrK' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""ItadqEjpwpWFSUsGVrK""}}",application/json
+test_1hb878nl7idsy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'LtHKQGRcWyrvtf' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""LtHKQGRcWyrvtf""}}",application/json
+test_1hbaed0jz8db8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hbaedag92054_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hbafx7cv7rdv_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1hbd833xggyu9_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1hbdq0ixyuan7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40006 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40006}}",application/json
+test_1hbfyav9ykk6u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_1hbfyrfik8zld_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_1hbgh06m14mk8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'kEMrhbpsczcKRDU' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""kEMrhbpsczcKRDU""}}",application/json
+test_1hbghh2c3sgmx_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 9.189033508300781, ""latitude"": 45.47047287954827}}}",application/json
+test_1hbghuxuuvo6x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1hbgikbdk5ch0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hbgiyifogy0p_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'bmLWEdomyLCIX' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""bmLWEdomyLCIX""}}",application/json
+test_1hbj8utf8blfb_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1hblk9ecrdhly_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'XbOgUuBtqWePtDDxP' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""XbOgUuBtqWePtDDxP""}}",application/json
+test_1hblkyq8qkily_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 144.96734619140625, ""latitude"": -37.81787593178502}}}",application/json
+test_1hr5d3an35we1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hr5d5xbic8kj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hr5dk0rhu2ch_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_1hr5dv8vgcpk6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'iXNdJhLHlUiLuggF' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""iXNdJhLHlUiLuggF""}}",application/json
+test_1hr5fi2cdqalx_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1hr5v0twh7ar5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1hr5v3cboqcdz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hr5veoq92wxg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1848' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1848""}}",application/json
+test_1hr84jqfbli06_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'YSPiLIjVNcYgjexIP' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""YSPiLIjVNcYgjexIP""}}",application/json
+test_1hr84v4grjwit_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'zaLbgMcDvRsBilTyG' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""zaLbgMcDvRsBilTyG""}}",application/json
+test_1hr84vcq5idrm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1hr85bocvfejo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5189' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""5189""}}",application/json
+test_1hr86f4z4lfsn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'xyXHTCSVOpi' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""xyXHTCSVOpi""}}",application/json
+test_1hr86ff6rxb1y_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hravh2w3zq05_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrayz8vdcj1f_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrbgigujrp0h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrbgiwn4hrn6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40001 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40001}}",application/json
+test_1hrdnbbi1ewkk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'HSnbEvfuXSAzEybB' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""HSnbEvfuXSAzEybB""}}",application/json
+test_1hrdovfzkrfc2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrdovka6h5ps_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_1hrdpzcdawg1k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ODsvbFxQeOp' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""ODsvbFxQeOp""}}",application/json
+test_1hrdqtrfoj229_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hre6syvpdbnd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1246' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""1246""}}",application/json
+test_1hre7z27pvckm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1218' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""1218""}}",application/json
+test_1hrgf37q8oca8_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1hrghr098c4z4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrj7968qshf7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrjab2avnbjr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4181' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4181""}}",application/json
+test_1hrjpvx5slvld_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'NuZkctHIzrYhCrf' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""NuZkctHIzrYhCrf""}}",application/json
+test_1hrjpwcy9mhpt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'mZvhplfFiISq' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""mZvhplfFiISq""}}",application/json
+test_1hrjr22h2g2n6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'fLecMNiBXLqW' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""fLecMNiBXLqW""}}",application/json
+test_1hrm04koctisi_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1hrm04l1g09y9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1hrmiue2ay1x1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'agqUOaCXJzTSziCNJ' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""agqUOaCXJzTSziCNJ""}}",application/json
+test_1hroriddka2wj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrorl40s5rom_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrorwchw4tb8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'GDNgfzbFPw' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""GDNgfzbFPw""}}",application/json
+test_1hrosapuyxbg9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'OqMHZDTETsq' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""OqMHZDTETsq""}}",application/json
+test_1hrp9tviej705_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrrkulj1x5x5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'EquKJuFaVhBaZhYNOwp' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""EquKJuFaVhBaZhYNOwp""}}",application/json
+test_1hrs1zogl7q5x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrs202mu7g4m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrs2dvi53k1f_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrs363n47e47_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -112.37606048583984, ""latitude"": 33.4595049615792}}}",application/json
+test_1hru9w1pbed6a_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrub2bb8h1dd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hrudgyd6cvg0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_1hux6w92lxy77_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3665' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""3665""}}",application/json
+test_1hux8dwd5re5d_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1huzyzkvou4hl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1huzzg91wfa79_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_1hv0fqp13orat_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'RXuqGvJlMlJBR' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""RXuqGvJlMlJBR""}}",application/json
+test_1hv37isqpq3hu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hv395ntx09d0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_1hv5glewoc6k5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1hv5gz6hbbltc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'UVPMBtAGGfijmhrdW' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""UVPMBtAGGfijmhrdW""}}",application/json
+test_1hv5hrcn8z0vl_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1hv5zonclnos5_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -106.44927978515625, ""latitude"": 31.653215982221013}}}",application/json
+test_1hv87yxsag1uu_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1hv89zxweh838_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""false""}}",application/json
+test_1hv8r2m0ixyya_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6280' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""6280""}}",application/json
+test_1hv8rx5di08rq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'dEpNweQAqAhHFQCM' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""dEpNweQAqAhHFQCM""}}",application/json
+test_1hvazqpnfxnp0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_1hvb0xao8l84j_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1hvbium4aahix_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1516' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1516""}}",application/json
+test_1hvbix0jhvayc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_1iauvdee9u4on_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'hxpmeKTysrsNlxtxE' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""hxpmeKTysrsNlxtxE""}}",application/json
+test_1iauvu8imxgm9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iauxegi572hv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iavexqg4hn3q_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iaxp3pz6qa1t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iay531ec5gma_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'KdAXRzOyqzGGxF' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""KdAXRzOyqzGGxF""}}",application/json
+test_1ib0ghgdy1qoz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ib0wuqyixopu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'RRTHtGuOzx' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""RRTHtGuOzx""}}",application/json
+test_1ib35j4tddaat_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ib35j8rrf9sx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1ib35x7wd16qr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""false""}}",application/json
+test_1ib5ygzm3r0hh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'SgjmLixhfMky' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""SgjmLixhfMky""}}",application/json
+test_1ib60tc78at6c_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'skBDkmODYl' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""skBDkmODYl""}}",application/json
+test_1ib60tek4ukhd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2733' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""2733""}}",application/json
+test_1ib6h6ks9wcwz_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1ib8rex6845dj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'bQXRPVgEos' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""bQXRPVgEos""}}",application/json
+test_1ib9866vn8g1h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_1ibbi0padqs86_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibbit1fkxb92_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibc00qzro5kg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_1ibc00z9hu9gj_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_1ibc1709rfazo_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1ibec7guipflk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_1ibetohj6zei8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibetqsclfiw4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'GtmytrTBpoRxNJCK' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""GtmytrTBpoRxNJCK""}}",application/json
+test_1ibh0sgp2p6wn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""false""}}",application/json
+test_1ibh16e88tbac_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4961' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""4961""}}",application/json
+test_1ibh1kx35in1u_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1ibh2fa6u61ps_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1ibh37a2142t0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibh37fych4c6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibh3wllh9hsz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'gIWHApXjhXOmhDqFMgp' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""gIWHApXjhXOmhDqFMgp""}}",application/json
+test_1ibhjhvydl5bt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'OXpEbYIMnnHQUBy' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""OXpEbYIMnnHQUBy""}}",application/json
+test_1ibhji66ut7j7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_1ibhjkimr4h9h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibhk9wjzmf5f_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1ibjvoz7ond4l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'JRnNISevAxQBwSNx' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""JRnNISevAxQBwSNx""}}",application/json
+test_1ibkc27syp73r_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6573' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""6573""}}",application/json
+test_1ibkcihsb6qn7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ibkcu4h0hn50_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iemn5uh93srl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iepgkdhj0swx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_1iepi215c9p2w_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1iepytiptkggy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'avdkKzgmZtyyPfIlE' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""avdkKzgmZtyyPfIlE""}}",application/json
+test_1ies89q7fzplu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iesq9k0pfewi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ieuyh7psv0py_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_1ieuyv95nfsdd_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -106.642784, ""latitude"": 34.012882}}}",application/json
+test_1iev048pl0nqr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1038' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""1038""}}",application/json
+test_1ievir56wschh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iexqpzlukjlh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iexs7d04qvdx_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 2.3421478271484375, ""latitude"": 48.86195860677958}}}",application/json
+test_1iexso55f0msj_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -73.99429321289062, ""latitude"": 40.70544486444615}}}",application/json
+test_1if0j9vbp7dr8_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -122.43644714355469, ""latitude"": 37.76089938976322}}}",application/json
+test_1if0jnsfk6c12_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AHMxKGCrUTmemYg' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""AHMxKGCrUTmemYg""}}",application/json
+test_1if0k1xuweszd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1if0l5k29kqpg_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -122.43644714355469, ""latitude"": 37.76089938976322}}}",application/json
+test_1if114vhz1ws4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1if11zggduyqs_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1if12awuo66nq_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iukwrmktfqzm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iun6lvis5gme_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iunnd38nxzjt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1iupwfjskmdyw_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 144.96734619140625, ""latitude"": -37.81787593178502}}}",application/json
+test_1iupx7frfcd41_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iupydz8edsmt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'asIikkrBAnWSsKtnL' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""asIikkrBAnWSsKtnL""}}",application/json
+test_1iuqh3g2b1quq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1iusq87wi1l5t_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iusqxhgd233n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3617' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""3617""}}",application/json
+test_1iut7azxoahpu_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iut82rwoyjw9_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iut85qg2z48i_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iuvfzgzvq1bm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_1iuvh5m9toxm9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iuvj3lyscjfn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iuvj633ntobm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iuvz5ehr0a5e_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iuvzgoyw9jz7_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iuvzh4dtzbdx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'GnPCqdvOxhdDnLPeo' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""GnPCqdvOxhdDnLPeo""}}",application/json
+test_1iuy85hveilph_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'zGksllGwpWSdUJbXHvn' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""zGksllGwpWSdUJbXHvn""}}",application/json
+test_1iuy8jd2g4m05_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iuy8lrw4yblh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_1iuy9pefpf2ns_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1858' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""1858""}}",application/json
+test_1iuya5ymz5i5y_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -114.54394, ""latitude"": 43.083168}}}",application/json
+test_1iuys0sx0y5h1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iuyses1wr7sg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iv0zx9q810kz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40002 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40002}}",application/json
+test_1iv10pdx31tnl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iv1294xxt8oo_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iv1imqxq3nle_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iv1jev56rt5v_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iv6kmuvg5hdl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iv6kpnv4cv95_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1581' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""1581""}}",application/json
+test_1iv6m6xc2dvtt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'9393' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""9393""}}",application/json
+test_1iv72k882ztcy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4505' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""4505""}}",application/json
+test_1iv730xp4riut_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iv9c0thhazj7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iv9c3e7nndye_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'8883' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""8883""}}",application/json
+test_1iv9csrr8mq1t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1460' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1460""}}",application/json
+test_1iv9dngotqhk4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iv9v4m2pdt85_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1iv9v6wkepen5_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iv9v72ul9ovq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'CYbiSOjuiXM' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""CYbiSOjuiXM""}}",application/json
+test_1iyc5wq105smo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'zSjHgtrPYOlDGfU' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""zSjHgtrPYOlDGfU""}}",application/json
+test_1iycomasd8enn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4128' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""4128""}}",application/json
+test_1iyex7s48flf9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'yVvaYcmtBaC' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""yVvaYcmtBaC""}}",application/json
+test_1iyexaidwsa5d_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -112.37606048583984, ""latitude"": 33.4595049615792}}}",application/json
+test_1iyexm51jumnq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'pbsiuuiTbTJ' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""pbsiuuiTbTJ""}}",application/json
+test_1iyeys61frqsm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'TbbHpbjbLLl' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""TbbHpbjbLLl""}}",application/json
+test_1iyeyuorr2qg3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iyfhk7zo35f4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iyhp01r81f1h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'EFCIoQeeDKcSDFKh' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""EFCIoQeeDKcSDFKh""}}",application/json
+test_1iyhpugeppanp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_1iyhrej8xktv4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iyhsi5srzrl2_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iyi9c1u4pu92_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'zPkttqrjOMLpZSANq' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""zPkttqrjOMLpZSANq""}}",application/json
+test_1iykh5yn8k09x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iykieif5ia92_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -99.963844, ""latitude"": 42.94439}}}",application/json
+test_1iykzv1qh34tt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1iyl1vxxkw3fq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_1iyna3tvu43le_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iyntl31uwp4k_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1iyq1hk8vie01_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1iyqjvr146r1f_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_1iyqlcyv0pueu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jeafi9w8ncj8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'MaRDBwDFIsFmZhCOpZ' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""MaRDBwDFIsFmZhCOpZ""}}",application/json
+test_1jecoynlo42n8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'tcgoZZWMJHUvDPjdS' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""tcgoZZWMJHUvDPjdS""}}",application/json
+test_1jecq2e4gqzas_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1jed6to6gx2ec_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AFCCzrCxnjctPB' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""AFCCzrCxnjctPB""}}",application/json
+test_1jed6trqc4awg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_1jefga7hcf7zo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'JYwifgGvKAJbslKttps' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""JYwifgGvKAJbslKttps""}}",application/json
+test_1jefzg10tfb6q_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_1jei8u1izcsiu_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jei9m44yer1d_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1686' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""1686""}}",application/json
+test_1jeiq1r5pzl88_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3780' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""3780""}}",application/json
+test_1jeiqdjef7jvp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'jnvwjaDSBZGfNDWQksV' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""jnvwjaDSBZGfNDWQksV""}}",application/json
+test_1jelix5xrhut3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1jelizundt204_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -82.00404, ""latitude"": 35.645187}}}",application/json
+test_1jenq1ikdjg4i_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jenra2pdwugg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'8259' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""8259""}}",application/json
+test_1jeo8qqbpbnmr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40003 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40003}}",application/json
+test_1jeo97frn9qp0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_1jer0ixkecoki_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jetarfk48pk1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jetarjhkwach_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jetcpp0az9kp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_1jetsdggyy5pi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jew1tobaqvqt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jewm0ovue14p_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jeysqsvos3ll_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""57 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 57}}",application/json
+test_1jeysqyss9vsh_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jeyurnh4zzvp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jeyv39droyud_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jeyvhgfdfyhy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jezbuj2o4e2b_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jezdsl0xqv5d_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1ji1pd70d62pl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_1ji1q2cmrur08_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ji1r8troealz_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1ji4yzr6bmhpu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ji4zgezdusfa_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'IgJvUmCBVerLWPds' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""IgJvUmCBVerLWPds""}}",application/json
+test_1ji50mlvb3xi9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40002 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40002}}",application/json
+test_1ji77o89f565e_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -113.32435, ""latitude"": 43.71818}}}",application/json
+test_1ji77qn3bzqsk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ji7ae47g6vdu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'9594' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""9594""}}",application/json
+test_1ji7agsv2zkv5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ji7r8crek675_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1ji7sbjjw45kl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1ji9z1t3ichf4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jia260ddn0hg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jia2k517coq8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_1jia2mtq9ubmt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'YUPZjSYwUDhfGWaaLY' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""YUPZjSYwUDhfGWaaLY""}}",application/json
+test_1jicrzu8xp46e_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1jid9xl2qo50k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jidae2xdr336_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1jifk8du3lgl4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4800' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4800""}}",application/json
+test_1jifkju7248yp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_1jifl0g1590za_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jiflq7rrz31t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_1jig3c050l2zn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4181' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4181""}}",application/json
+test_1jxze8bhoui5g_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jxzfh5tib4tt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40009 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40009}}",application/json
+test_1jxzfsdx6zrs3_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jxzfsgadorav_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -86.143845, ""latitude"": 33.58681}}}",application/json
+test_1jxzx0bhrunvq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_1jxzy6p09t1dh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_1jy26e2gw1ohh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'VgSvVUErOaSHwSlQLhA' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""VgSvVUErOaSHwSlQLhA""}}",application/json
+test_1jy2oblguiaub_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'vVHbEcaikXahfHEaR' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""vVHbEcaikXahfHEaR""}}",application/json
+test_1jy2phoscwiua_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jy2pvnw2zr5d_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jy506yt52lwm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4817' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""4817""}}",application/json
+test_1jy5hnhr3a4vn_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jy889e6cuh4j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""57 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 57}}",application/json
+test_1jy8949dixp9v_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1jy8949dkjbjk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jyag5xdc72p1_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jyagxppqfgoi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4573' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4573""}}",application/json
+test_1jyaz99sg0jlc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5369' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""5369""}}",application/json
+test_1jyb04119gnqr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jyd9kgegh3z5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'VmUuaWmnte' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""VmUuaWmnte""}}",application/json
+test_1jydacilq37zp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'GDOCbCsoTR' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""GDOCbCsoTR""}}",application/json
+test_1jyg21ns68egp_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1jyg2fkxgpjjt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jygjyz6ln5f7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jygkr8x8dzkz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1jyirk5k9ki7q_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40004 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40004}}",application/json
+test_1jyjbr2icbl2b_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jyjbtr6t3bz5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ALcKrZvwxDBb' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""ALcKrZvwxDBb""}}",application/json
+test_1jyll7qh2t1lv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_1jylllp975x0l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3137' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""3137""}}",application/json
+test_1jylm237fubms_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1jym3515zjghg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_1jym3x7c5duls_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'kGaWqOwipzrZp' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""kGaWqOwipzrZp""}}",application/json
+test_1jyoddhgvv31u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'cGZDNzVYMqGokVaDX' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""cGZDNzVYMqGokVaDX""}}",application/json
+test_1jyoem9hx4xnm_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -83.97926, ""latitude"": 42.325462}}}",application/json
+test_1jyovdksvh7qb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_1k1rp4bhw7zu9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1k1rpyqk01rg8_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1k1tyn4eacjlc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'DlraNcBOgFlm' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""DlraNcBOgFlm""}}",application/json
+test_1k1tyyua6klrt_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -118.69361, ""latitude"": 45.46494}}}",application/json
+test_1k1tzfck332uq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_1k1ugw3qbhqgg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1k1uh9ulr86ec_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1k1uhcn9g1bn4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'pkZokwROCtkJS' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""pkZokwROCtkJS""}}",application/json
+test_1k1uiiml676g2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_1k1wsd5dsjius_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_1k1x94d5c0vvq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_1k1zhcemrfsj6_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -112.37606048583984, ""latitude"": 33.4595049615792}}}",application/json
+test_1k1zi470ji0xi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'mtfSqimvSVId' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""mtfSqimvSVId""}}",application/json
+test_1k2296tltlc1e_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_1k229kubv857n_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1k22b2agn64pv_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -98.95964, ""latitude"": 39.254513}}}",application/json
+test_1k22biscc6vs1_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -86.96239, ""latitude"": 41.677044}}}",application/json
+test_1k22szr1peuyd_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_1k22tgb9uupuq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_1k250w2cskrja_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -109.676895, ""latitude"": 45.812965}}}",application/json
+test_1k25407acqfch_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'gzzziSwoOnolOauXrqg' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""gzzziSwoOnolOauXrqg""}}",application/json
+test_1k254ecohjiuo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'oywuYypIxDDCQ' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""oywuYypIxDDCQ""}}",application/json
+test_1k25l5g3jgy8y_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_1k25lxq65hc2s_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_qdqgri9ui3ap_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'hjpeEkivQNFjVkH' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""hjpeEkivQNFjVkH""}}",application/json
+test_qdsr2enm36ub_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'epQzZpacUqDMvTv' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""epQzZpacUqDMvTv""}}",application/json
+test_qdsrs02po57l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'HYsYEwGoTqGU' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""HYsYEwGoTqGU""}}",application/json
+test_qdst0cahq1ps_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qdt8xb94sbht_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qdviuce55eg4_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -122.43644714355469, ""latitude"": 37.76089938976322}}}",application/json
+test_qdw0ox78rjok_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_qdw0p6pczewl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AuCRRhFdXqBxQiXDMVg' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""AuCRRhFdXqBxQiXDMVg""}}",application/json
+test_qdy923sb87s5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qdyaxoyypxyx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'EVWbCvePNhvuOJ' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""EVWbCvePNhvuOJ""}}",application/json
+test_qdybpizaip81_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -98.32674, ""latitude"": 37.31026}}}",application/json
+test_qdycka7bv4va_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qdysgyl29751_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3098' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""3098""}}",application/json
+test_qdysv016r0hh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qe115kbfemuw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""54 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 54}}",application/json
+test_qe11j7lm1a3m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'nysTWAptSGFDj' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""nysTWAptSGFDj""}}",application/json
+test_qe12pcw3nvw1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_qe13vg8e4xgm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_qe1jx8gzv67n_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 139.76669311523438, ""latitude"": 35.685011526354074}}}",application/json
+test_qe1jxdz3s4mb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qe3uv7jbtnhs_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qe3v9ihkd5ps_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AwrnGXwoljTSyk' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""AwrnGXwoljTSyk""}}",application/json
+test_qe3vn7qginvl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_qe6kax0ruezm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ODqQwGDNig' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""ODqQwGDNig""}}",application/json
+test_qe6lh0dag6d5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qe6lv13lr2w1_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qe9eevkqf5f5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_qe9fl2tozbdx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qe9v6b72ah4n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40005 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40005}}",application/json
+test_qeco4fwuci0o_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qeewt1nayx5v_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_qeeycvu5mbmt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_qhhsmp5dt6b8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qhhtcihhj7lh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qhhtq84b80tv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_qhhtqbpk3nmt_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qhiahldwo602_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_qhkkc4jisqwn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_qhkl6v2jltnn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_qhkli5kafvw8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qhndqj7v3jna_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qhq1xslox99w_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qhsvcd9mxovo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qhsvnm2e46ld_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qhsx7s4v9lbt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'KgimUXwYWUvH' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""KgimUXwYWUvH""}}",application/json
+test_qhsxab9jsrj7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""52 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 52}}",application/json
+test_qhtd9ma0095t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'yxLkdxhEAosV' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""yxLkdxhEAosV""}}",application/json
+test_qhtdkz43g8xc_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qhte1wfvw46u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_qhw4nnatof1y_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_qhw4z1bzddf5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40004 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40004}}",application/json
+test_qxfg0khmpum0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxfj4t1tpzjn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_qxfjg1utkw1e_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -119.171104, ""latitude"": 38.14606}}}",application/json
+test_qxfzi9ie856g_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'7053' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""7053""}}",application/json
+test_qxl0cfxv9bab_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxl1u5y358on_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxl1u5z55dm9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxlk5bt7d1kh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxlkjn5je4ag_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6278' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""6278""}}",application/json
+test_qxns1v0x0dib_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxnsw8h4mvqs_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxntm1fldt83_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_qxnuunih1h7p_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_qxoare76aasz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxqk7twkdpic_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qxqlruqwyuyf_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qxr43agurply_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'omGYlitaZajmaqs' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""omGYlitaZajmaqs""}}",application/json
+test_qxtcu16mxws7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_qxttzhk0j336_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'qNNRXmFSClu' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""qNNRXmFSClu""}}",application/json
+test_qxturi5uh8iu_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_qxtv5hbu465w_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qxtvh75gu4a8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxtvh76uyusm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxw2lgmlm8gz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40003 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40003}}",application/json
+test_qxw4lwop5fzq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxw4m6j2mlv4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5404' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""5404""}}",application/json
+test_qxw5prfvcv20_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6934' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""6934""}}",application/json
+test_qxwm5akglppf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qxwm5ej2qgj6_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_qxwmgraewpwz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'rBYcscayYjugea' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""rBYcscayYjugea""}}",application/json
+test_qxwnpfclegyq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_qxyv7t2uge9j_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_qxywdwfp857q_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'TSEKnPJPnNcSNcTKlE' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""TSEKnPJPnNcSNcTKlE""}}",application/json
+test_qxywp4xmxbvq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4159' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""4159""}}",application/json
+test_qy1m5c7neecx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qy258u4mkyg3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_qy4f2t8tu9fc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_qy4fjmzdahr6_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -105.17104, ""latitude"": 36.93122}}}",application/json
+test_qy4gmzmekk6u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""51 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 51}}",application/json
+test_qy4x08ljsisz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_r178z185zbdw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""51 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 51}}",application/json
+test_r17a50jui52x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r17sujqxl7w6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_r17t5onuqgj7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1a14q9e9u8z_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1a30demeuzo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_r1csgc2r4h9f_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1cv62213rdw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1cv6bxqj0is_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'8514' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""8514""}}",application/json
+test_r1dcboqdbepg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_r1dcpjxgujp1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AokZOTEYutgICoix' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""AokZOTEYutgICoix""}}",application/json
+test_r1fl084heo1k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3777' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""3777""}}",application/json
+test_r1flryhimwq9_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -96.1276, ""latitude"": 37.01424}}}",application/json
+test_r1fm61xjzwhi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40005 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40005}}",application/json
+test_r1g3ppctlpph_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_r1g4hfpam1r6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'nfNLJvypOkj' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""nfNLJvypOkj""}}",application/json
+test_r1g4hhobrsja_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1g4hpm4cc39_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -5.985832214355469, ""latitude"": 37.38897024983557}}}",application/json
+test_r1g4kanny8tu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_r1g4y5ivr6uc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40004 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40004}}",application/json
+test_r1iv3ifsquk1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_r1ivju0l3bl2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1ivv8h8frcn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1l3rk2ktz5d_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1ln9d0kn9es_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_r1lo19bcxf79_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_r1lo3sg1tik1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rh4y8b2shr21_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rh4yavsqiwxi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rh4z0hmjo0tz_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -80.53002, ""latitude"": 34.997482}}}",application/json
+test_rh7qshd9h1sx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rh7rmqivmt6c_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rh7ryauq9644_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rh7t4jq8ocbo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rh8b4bwyj5no_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhai5zwq5hkg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'WRXWEufjYrGlNjl' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""WRXWEufjYrGlNjl""}}",application/json
+test_rhaijzef731t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40002 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40002}}",application/json
+test_rhaimo2xphyt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhajpysneng2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_rhb21w9bbvqe_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'IujWzEPiLXAfblSE' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""IujWzEPiLXAfblSE""}}",application/json
+test_rhb24b3kbi9e_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'YyBUEMCmlGKulZtrJO' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""YyBUEMCmlGKulZtrJO""}}",application/json
+test_rhdccn4gwrc2_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_rhdd22zkqcf8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rhg1pxf539t0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhg26lagz9sy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rhg2kgt828ms_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhg3o4znz8l0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_rhg3qk4ykn5j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhg3qlsdzr5j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_rhg428ffiibb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_rhglllwzqv6q_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4782' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4782""}}",application/json
+test_rhiucaa55ni1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_rhjcnyccnznb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhje5g1cntr6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40004 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40004}}",application/json
+test_rhlmfogch3kx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhlmtzss7kv5_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rhocnht83wvk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rhodhyvshdth_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3674' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""3674""}}",application/json
+test_rhodi6qt0m5x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_rhog86mm8axv_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -106.124626, ""latitude"": 39.793106}}}",application/json
+test_rhowiyge6d6f_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rhr5l74oduu9_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rhr6255g06yg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1029' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1029""}}",application/json
+test_rhr7jov6yf5k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_rhtzdzi396jn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhtzpjgsmm9j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhufatqndzz7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rhuggn8cd1t1_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rkwtj14qok6u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_rkwuax1lt8is_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_rkziyc3ob583_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2123' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""2123""}}",application/json
+test_rkzj0z730w1f_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rkzjc9n67882_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rl2v01h9xe1y_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_rl2vghfzbzn5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rl2vugkb1mwi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_rl52yrm1li76_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'9009' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""9009""}}",application/json
+test_rl53a41ny7nb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_rl53o35pwoxh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'9293' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""9293""}}",application/json
+test_rl5m2fu86m28_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_rl5ms18bfl11_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rl5n8dm6kdo2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_rl5njvxm6dt0_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 9.189033508300781, ""latitude"": 45.47047287954827}}}",application/json
+test_rl7vu9ytppb6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'iiSkOcfbYiMEf' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""iiSkOcfbYiMEf""}}",application/json
+test_rlan82obclrs_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_rlaoe0h40nxz_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rlaosdevjkts_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_rlb55jmpa0ki_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""false""}}",application/json
+test_rlb5xdza3oth_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'7990' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""7990""}}",application/json
+test_s0uhr4y72tko_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s0v1kb0a6791_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s0x8cxg873ac_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'cfnammHzjeyUn' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""cfnammHzjeyUn""}}",application/json
+test_s0xamdf3k75l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_s0xamff6u0rp_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 2.3421478271484375, ""latitude"": 48.86195860677958}}}",application/json
+test_s0xbh6o28c37_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s0xs8hxksy7n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s100uaq95auq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s10kq366427q_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_s10ksgdjfcde_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""52 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 52}}",application/json
+test_s10l6f3pquk6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4306' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4306""}}",application/json
+test_s12sm2yqagde_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'YGIvOStRaa' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""YGIvOStRaa""}}",application/json
+test_s12u65fml99z_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_s12uk669pr90_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_s13bsfvgwsae_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_s15k2u8e2otv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_s15l66izmg6d_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -115.33743, ""latitude"": 35.623722}}}",application/json
+test_s15lk1rgrs4x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40005 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40005}}",application/json
+test_s15mqfacce9k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s1633fz7t2si_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s18c8p7n801j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s18ehyw9t201_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s18ekxttljco_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s18ewft1let5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_s1b3xs0wnzhf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s1b6a6x9qau9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'UBIcYrupPqQGHXe' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""UBIcYrupPqQGHXe""}}",application/json
+test_s1boa4oz8s37_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -110.74249, ""latitude"": 34.807495}}}",application/json
+test_s1dw6jk7a9uu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s1dxntdesu2d_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 139.76669311523438, ""latitude"": 35.685011526354074}}}",application/json
+test_s1ef79a72y5d_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_s1eg1w5xb90i_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'umGbcCneqwIyMQngXt' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""umGbcCneqwIyMQngXt""}}",application/json
+test_s1gms82jydt2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1953' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1953""}}",application/json
+test_s1gq7rflwhgk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s1h7fv8lqz3o_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'fHlvnugLCEs' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""fHlvnugLCEs""}}",application/json
+test_s1h7rd89taox_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'QoBCSCaUhGKjRYK' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""QoBCSCaUhGKjRYK""}}",application/json
+test_s1jevq7nicdw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5618' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""5618""}}",application/json
+test_s1jfq1pe6rll_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_s1jfq79y4myg_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -87.673386, ""latitude"": 44.31628}}}",application/json
+test_s1jgtptwc6k7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'dMdKkbcokpbSKgCgzdl' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""dMdKkbcokpbSKgCgzdl""}}",application/json
+test_s1jgtpv8dbn7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'UrIkLkRkXu' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""UrIkLkRkXu""}}",application/json
+test_s1jyd62skvvm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s4mul2kyf7e8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_s4p3nnheiou0_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_s4rvqvcf2als_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s4rvqxohrhv5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_s4scw8h9jvow_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -87.910515, ""latitude"": 46.837345}}}",application/json
+test_s4sdo2tivewo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'hCMSgiDqpPJrFV' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""hCMSgiDqpPJrFV""}}",application/json
+test_s4v5ikyy7f4z_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40007 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40007}}",application/json
+test_s4xdew8n7foz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'CdaHOeJorOdRNl' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""CdaHOeJorOdRNl""}}",application/json
+test_s4xdf4i36q90_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'NlgcaZvMrg' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""NlgcaZvMrg""}}",application/json
+test_s4xg5duuuyjl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'NFhStBDNSzFnLPgxGLV' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""NFhStBDNSzFnLPgxGLV""}}",application/json
+test_s5054bat4a49_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_s505iknbw0fs_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'GGDLztUHOhGyNUjzfeH' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""GGDLztUHOhGyNUjzfeH""}}",application/json
+test_skjzkx49w7l0_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_skk1x7chpq3n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""52 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 52}}",application/json
+test_skk2ayk4y1ww_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'rINNwRwYWiLwSDHvqa' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""rINNwRwYWiLwSDHvqa""}}",application/json
+test_skk2b4u9x1df_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'MHyNYjgZAE' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""MHyNYjgZAE""}}",application/json
+test_skkj2aloc9bp_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_skkjg9f8cmra_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -112.37606048583984, ""latitude"": 33.4595049615792}}}",application/json
+test_skkjgfaxr31v_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'EfdIqRmslczqGEoBfuK' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""EfdIqRmslczqGEoBfuK""}}",application/json
+test_skmqkksujvxi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_skmrqtmywvg2_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -93.61334, ""latitude"": 34.67291}}}",application/json
+test_skmsio0m9751_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'YxIrOiwnFr' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""YxIrOiwnFr""}}",application/json
+test_skmswz00cxtk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'cUxJJRPMGWPNYqKS' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""cUxJJRPMGWPNYqKS""}}",application/json
+test_skn9qvq01krn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'yCtqtWqjcrWwNrHnR' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""yCtqtWqjcrWwNrHnR""}}",application/json
+test_skna27sd1vli_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_sknaua06oajp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ntCFjZVrNik' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""ntCFjZVrNik""}}",application/json
+test_skpif4wh7bdy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_skpkd6iredyx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'KJdOcxXTkpizQtmIhh' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""KJdOcxXTkpizQtmIhh""}}",application/json
+test_skplxbbq18oi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_skq1wqbxxe1t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'PVIRLwtplaOc' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""PVIRLwtplaOc""}}",application/json
+test_sksaijg2002t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_sksdmty4hy79_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_skv3unafx649_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'QfGJEzoXhOATWswwyQE' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""QfGJEzoXhOATWswwyQE""}}",application/json
+test_skvm5xgfle0m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'blPonQmxNJHasl' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""blPonQmxNJHasl""}}",application/json
+test_skxuu32nrrdt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_skxuuda95dth_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_skxw0acgiaev_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_skxwe9hud6cj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'pqnjXTmIOcfrUECwDqQ' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""pqnjXTmIOcfrUECwDqQ""}}",application/json
+test_skycruaoeerd_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_skycrxu96l2u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'HZTEJtWcdJQaaQGrx' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""HZTEJtWcdJQaaQGrx""}}",application/json
+test_skyd8c5to57l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_skydxls69q2g_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'hQjHhbWCvVs' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""hQjHhbWCvVs""}}",application/json
+test_skye0afmr529_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4179' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4179""}}",application/json
+test_sl0luau17dd1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sl0p1056qn95_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_sl15sbusdvsj_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_sl3edv36vcde_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sl3eusep4unt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'8706' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""8706""}}",application/json
+test_sl3geraakda0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_sl3wpes4qfqq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sl3ws9dglf8h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sl3xvg52b7sk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'XNoIsFqDTCWdVMikDW' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""XNoIsFqDTCWdVMikDW""}}",application/json
+test_sl68ib0lt8hc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_sl8ypygppctu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sl9hw5ez75gj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_sobrqxrs1agn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3684' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""3684""}}",application/json
+test_sobuxvbl83mr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_sobuxz9p4unm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_soccese4kbap_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_socch78liiqr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'zensAErCLfaXTco' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""zensAErCLfaXTco""}}",application/json
+test_soekb9mmw8j5_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -107.4035, ""latitude"": 41.870655}}}",application/json
+test_soel5ulk0bw6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_sof3h8plsf39_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sof49axnkoj6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sohbazb0u5va_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_sohc37r1csop_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'1852' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""1852""}}",application/json
+test_sohe0z6c0wo1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'MODKSlaYlkmZA' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""MODKSlaYlkmZA""}}",application/json
+test_sohv6dvrwcwz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'NcRsWWlYistrZASl' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""NcRsWWlYistrZASl""}}",application/json
+test_sok32thezdyb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sok3uvbyy63m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_sok5t8s5odo0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'VhEqoEDfeeyVisck' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""VhEqoEDfeeyVisck""}}",application/json
+test_sok6kx7lndk3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'QuLBZviWGoaLmrb' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""QuLBZviWGoaLmrb""}}",application/json
+test_somuukz0qqud_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_somuumzxqwrm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'BTNGzcdmRsCzZGyZ' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""BTNGzcdmRsCzZGyZ""}}",application/json
+test_somvberg7ku0_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6378' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""6378""}}",application/json
+test_somw0s87e7ab_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""52 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 52}}",application/json
+test_somxkmuxcpps_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_sopn0dzouz3m_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_sopokkrgooxc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ouAgKEBFipJNnNOJyZm' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""ouAgKEBFipJNnNOJyZm""}}",application/json
+test_sopoyzc1y0c9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""56 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 56}}",application/json
+test_soq5qb0btm5i_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_soq6ks0cp65h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40002 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40002}}",application/json
+test_soq6ktz3woyr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_soq7a7igou9g_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4a06sh94roz_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_t4ca3k6d4qwj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4caht5agdb5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4fjsuyz973l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4fkwpsbqnhi_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4floq0k8oxg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""54 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 54}}",application/json
+test_t4hssp83w27s_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4iccyxzp74z_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -90.1813, ""latitude"": 33.18944}}}",application/json
+test_t4km50x0guhy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4km77vwldf6_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4knork9y0xf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_t4l3qw07a9uq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4l42eccvr5j_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4ndivnf28o6_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -81.91359, ""latitude"": 43.514988}}}",application/json
+test_t4nf57e8c7xw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'xyFUZgdbPnHP' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""xyFUZgdbPnHP""}}",application/json
+test_t4nvu7ts9yr9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2600' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""2600""}}",application/json
+test_t4q5a9oumcza_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_t4qogj1cs3zo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""53 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 53}}",application/json
+test_t4swa5am1mpl_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4swcy9zwqba_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4sxj1mkfbcl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4sz361lwm06_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'TlCapULNsCM' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""TlCapULNsCM""}}",application/json
+test_t4tf02bqqhpz_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4tfrwn5votg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4tg602bbxva_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_t4vpaz1fzqk4_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_t4vpp0hkbwbn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""true""}}",application/json
+test_t4w6rgdogx2d_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -101.42276, ""latitude"": 41.07911}}}",application/json
+test_t4w75tae1kxj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4yfimg5toaa_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4yh085gafdw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t4yi6bgyirzs_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'dUlaLFhhWErErRGDaA' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""dUlaLFhhWErErRGDaA""}}",application/json
+test_t4z06b67gin7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t81blk6taywi_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_t81djro8j19s_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4488' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4488""}}",application/json
+test_t81dm669uoms_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -112.37606048583984, ""latitude"": 33.4595049615792}}}",application/json
+test_t81tzf3hb41g_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t84274denyox_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t842zehco31h_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -122.43644714355469, ""latitude"": 37.76089938976322}}}",application/json
+test_t843tvj3bfp3_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -83.77717, ""latitude"": 36.557686}}}",application/json
+test_t844jjbrbucl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'yoLcahSOLiUhvCMQcHh' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""yoLcahSOLiUhvCMQcHh""}}",application/json
+test_t845bl4tn77b_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t84m5fmezali_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40005 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40005}}",application/json
+test_t86u1sul3xgz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40001 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40001}}",application/json
+test_t86vj8lzpylh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_t86wp5zj3gok_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_t89ohdmz8h0x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'JjReicdBVEbWhgcV' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""JjReicdBVEbWhgcV""}}",application/json
+test_t8a4uq6vcawm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t8cdizqu002q_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t8cedkpiyhr5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40003 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40003}}",application/json
+test_t8cfjubo53jn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'TUBEYMjEfVGUIICS' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""TUBEYMjEfVGUIICS""}}",application/json
+test_t8cgprdjtqgi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2118' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""2118""}}",application/json
+test_t8cgptq6nh2v_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40008 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40008}}",application/json
+test_t8cwb03wn2hx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_t8cwmk1vyerb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40002 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40002}}",application/json
+test_t8cy6kwgp5iv_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_t8f4wuh8pun6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40009 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40009}}",application/json
+test_t8f4wyrkk76s_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_t8f81980sq5i_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_tnz05giqbl10_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tnz05i63v2gj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""51 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 51}}",application/json
+test_tnz0xq9b5e0j_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_tnzigw9tvg34_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -88.14775, ""latitude"": 37.81044}}}",application/json
+test_tnzjbfa005dk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'XGrSGkyxVOcduucsLY' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""XGrSGkyxVOcduucsLY""}}",application/json
+test_tnzk3nr4bjom_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tnzkerx2ytro_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'shxRFNdxnpDopfREa' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""shxRFNdxnpDopfREa""}}",application/json
+test_tnzkhkycu0xf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ZTYrHGMirgxSKxWk' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""ZTYrHGMirgxSKxWk""}}",application/json
+test_to1r54793ktw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_to1r5bqvzj35_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_to1r5e24lpwh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'rfDTxxaHMLbwpS' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""rfDTxxaHMLbwpS""}}",application/json
+test_to1rj10nw6r8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_to1rjd7kc27n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_to1rxfy0r9rk_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_to1u9enfjtbt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AbyvRWsTTAxlKFGZJR' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""AbyvRWsTTAxlKFGZJR""}}",application/json
+test_to4jozxlneb5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_to4kh8es5ftu_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_to4m18wn6a90_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_to52ef6ojewo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_to7ap5po2ed5_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_to7cnet4pyr5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_to7dtc9g26oz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'jSuuQXaQQPIhWUuco' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""jSuuQXaQQPIhWUuco""}}",application/json
+test_to7vta0lip86_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_to7vtebp0go4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ZRfTRrhVPZO' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""ZRfTRrhVPZO""}}",application/json
+test_toa3n0ju6gqh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'lQvPNQsVthECmYL' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""lQvPNQsVthECmYL""}}",application/json
+test_toa40w3x95pv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""56 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 56}}",application/json
+test_toa4f71xp0du_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_toanitbx1sft_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tocvemum5zkz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_tocwl02nsmyh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_tocxr12a2u01_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_toddqaj02p80_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_todei75m4j1f_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_todel3cpd5is_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tofm37zjq7ug_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""55 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 55}}",application/json
+test_tofm3diplve9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tofn6w5nv883_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40009 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40009}}",application/json
+test_tofoqwmywmd5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'8782' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""8782""}}",application/json
+test_tofp4ts9qe78_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tofp7itlhlk2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tog7257t2cf6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_toiekezfyng2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_toigl799k1m9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_toihar25j3nd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40003 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40003}}",application/json
+test_toiww8w926hv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'jehPbFzSKwrmk' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""jehPbFzSKwrmk""}}",application/json
+test_toiyg5tbj29c_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_toiyuciy0300_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_toiyugszs0mr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'SsNQZTFRULLjqq' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""SsNQZTFRULLjqq""}}",application/json
+test_tol5ydmr875c_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_tolp25v1jrxz_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_tony6tbavntx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_tonzqxt693du_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_toohludemek1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_tooi2o3wa1k3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'PhCZLevWRIfBND' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""PhCZLevWRIfBND""}}",application/json
+test_trqsbhjrzgpx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_trrdd90xi0jd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2322' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""2322""}}",application/json
+test_trtmtwmmmjc3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_tru4fv9odkkj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_trwvfmwd0jmr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'yYOnjmlekb' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""yYOnjmlekb""}}",application/json
+test_trz41lk7290y_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_trz6rhtvtx6g_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_trzn4zxbmfqr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2168' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""2168""}}",application/json
+test_trzornhxll4k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40001 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40001}}",application/json
+test_ts1vf6cy8fvn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_ts1xdg908yue_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_ts2ewk9m3k1g_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'rIcTQTjDZiGXTmob' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""rIcTQTjDZiGXTmob""}}",application/json
+test_ts2ezehwhnav_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_ts2fos0du59y_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_ts2g2l8qb41k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'IGtRgRTjHXvxjVnauB' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""IGtRgRTjHXvxjVnauB""}}",application/json
+test_ts4n78hgmq0j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ts4ofqmihfsj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2808' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""2808""}}",application/json
+test_ts588o2o7rcn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u7ohno073uif_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""false""}}",application/json
+test_u7oi45kaffc2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u7ojo9ytq52t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_u7okdxegb12u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_u7okgi5ooyly_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'OnoPpdSPIjyCBlbVf' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""OnoPpdSPIjyCBlbVf""}}",application/json
+test_u7ralh8bqi40_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u7u17hm954xf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u7u1a2czfk1k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2370' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""2370""}}",application/json
+test_u7u1zne9of20_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u7xcgyj09yr6_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_u7zlxi5t66nk_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_u7znhd326yig_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u7znhkzqmdko_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -94.38008, ""latitude"": 46.632347}}}",application/json
+test_u8048qpj85sx_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 20.006103515625, ""latitude"": 50.04582825444875}}}",application/json
+test_u8048ub41261_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_u804pg60xuua_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u82e394g92k6_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_u82fpudvtv07_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'hHdJQZOFbsMUEGB' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""hHdJQZOFbsMUEGB""}}",application/json
+test_u82g1ar42eld_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_u82wsih7s1uq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u855xpqc65gw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_u87xpfn0egrm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'TbPlGBmpTyODkfpr' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""TbPlGBmpTyODkfpr""}}",application/json
+test_u87z6z9zky7n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_u88fn0wtrozb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_u88gf1489tgi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40007 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40007}}",application/json
+test_u8ao8pbenk9y_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_u8aomoi89bg9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u8b8ysv6pq3q_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": 9.189033508300781, ""latitude"": 45.47047287954827}}}",application/json
+test_u8dfp93f49yd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_u8dg33wnbomc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'3574' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""3574""}}",application/json
+test_u8di19gzigj5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2487' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""2487""}}",application/json
+test_u8dj4w0bshmf_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_u8dzymh4p6qu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AzEdiUEFkXijYko' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""AzEdiUEFkXijYko""}}",application/json
+test_u8e0o00pu6us_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'4070' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""4070""}}",application/json
+test_u8e0qt00dw6u_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_ubgbgg6p7xh5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubgcmrf4431e_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_ubgtpndsookl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_ubguhdem7h2u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'YnZjwVZpavYBK' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""YnZjwVZpavYBK""}}",application/json
+test_ubj3y0zkypme_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'FtyRrggLUrAV' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""FtyRrggLUrAV""}}",application/json
+test_ubj4pxo4uxbt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'BlEKSZbJozo' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""BlEKSZbJozo""}}",application/json
+test_ubjmnac0wrw5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubjnfihjouap_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'lxQJgWFukY' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""lxQJgWFukY""}}",application/json
+test_ublxqf76yfs3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5740' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""5740""}}",application/json
+test_ubmd9cqlfxwi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubmd9d2933ol_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubmdn0dhybmr_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubolxmlppv03_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'PJiggWUJXQKYZJzSJHn' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""PJiggWUJXQKYZJzSJHn""}}",application/json
+test_ubom08zvawxj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_ubonvs5jsugi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6760' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""6760""}}",application/json
+test_uboo9sw4xzqt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_ubopide6wj8i_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -117.81675, ""latitude"": 45.791847}}}",application/json
+test_ubp5sxampe7n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubrdpg4aflgm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ubrek5d71w6v_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_ubryfrj1465z_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_ubu6nni2plix_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_ubupflheu5gz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ure2a01wp7hu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_ure34uwcsrax_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'xHZPwmseyqVnsehz' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""xHZPwmseyqVnsehz""}}",application/json
+test_ureklk4priuo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40009 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40009}}",application/json
+test_urguu03mzale_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urjm7v55a3c1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'VFxzkaKZRqxQl' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""VFxzkaKZRqxQl""}}",application/json
+test_urjmm27ba2ic_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""54 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 54}}",application/json
+test_urk3fqbnlj6u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'RLGWXeNVbrzeGW' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""RLGWXeNVbrzeGW""}}",application/json
+test_urk3r15o60j8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urmc1uxqvq01_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_urmcw7zh5dnn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ejtLbaafZMepbaJ' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""ejtLbaafZMepbaJ""}}",application/json
+test_urmd7qbz2qew_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'LOVtsbbdyzE' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""LOVtsbbdyzE""}}",application/json
+test_urmdzoo00spu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_urme2hmsgqwi_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'FHlrcAHaOVnH' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""FHlrcAHaOVnH""}}",application/json
+test_urmeuhupatkn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urmv7mj2orxh_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_urp4zu3t51sx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'DPfwVdInJVL' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""DPfwVdInJVL""}}",application/json
+test_urp52awiy3hv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_urp5u7iv0bw9_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -83.894135, ""latitude"": 35.148407}}}",application/json
+test_urpm7e4vj9lx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_urpnovjbzm0m_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -104.24206, ""latitude"": 34.24402}}}",application/json
+test_urpo5jakdqau_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'MDZYMyZVvzMNQR' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""MDZYMyZVvzMNQR""}}",application/json
+test_urrvlml09zz6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40004 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40004}}",application/json
+test_urrw1wkwmhk2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'8368' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""8368""}}",application/json
+test_urrwra3xpr21_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urrye9j2c852_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""false""}}",application/json
+test_ursf2ol9crqc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urv7mq8pbk8m_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'qjCwLtWsNKFjYCeXbb' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""qjCwLtWsNKFjYCeXbb""}}",application/json
+test_urxfj5giooxe_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urxh5ylibkgx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""52 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 52}}",application/json
+test_urxxgsoqyqsz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_urxymvok2ss1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_urxz0izkwf1u_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""40006 is greater than the maximum of 40000"", ""field"": ""radius"", ""instance"": 40006}}",application/json
+test_us0q0gvgy4ir_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5614' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""5614""}}",application/json
+test_us2zjf0ctgl2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_us313roa8jzq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_us3i6lbobluu_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""true""}}",application/json
+test_us3i6nouz60p_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_us3imxorbn76_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_uv5u2i4aghmb_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -94.27843, ""latitude"": 38.177002}}}",application/json
+test_uv6dy0nw1750_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_uv8lwog19v05_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_uv8lwqsc04f5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_uv8ne28p2ova_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -89.93858, ""latitude"": 42.9952}}}",application/json
+test_uvbcu95nuf5e_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_uvbdlvluhult_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""58 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 58}}",application/json
+test_uvbe0cuhrgbo_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""52 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 52}}",application/json
+test_uvbvxbojtf04_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_uve6y1sctq3n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'bhLIqhnUubFCrAUpt' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""bhLIqhnUubFCrAUpt""}}",application/json
+test_uve70qg9htnn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_uveo3kf107jk_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_uvep9jsrb146_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_uvgw2ev4vtbt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""51 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 51}}",application/json
+test_uvgyq5ueetkl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'AodQdPhKBWTYyTPmmtO' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""AodQdPhKBWTYyTPmmtO""}}",application/json
+test_uvhg99hz7za9_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_uvjo8bepnne8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_uvjojy2tazau_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'7562' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""7562""}}",application/json
+test_uvjoxmztqkx2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'XyWnEniYXYRVfgp' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""XyWnEniYXYRVfgp""}}",application/json
+test_uvjpbk4iip9g_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'lfUGrqbzxDKXvlPNFMH' is not of type 'integer'"", ""field"": ""open_at"", ""instance"": ""lfUGrqbzxDKXvlPNFMH""}}",application/json
+test_uvjq3y7cokmc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'sEMTPlHjwgUNO' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""sEMTPlHjwgUNO""}}",application/json
+test_uvjqyj7rgxut_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_uvk8tjbv1qw3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb3je6u9ix5w_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb3ky5bpj4tw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_vb3lchy5iu03_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vb3lq77tx2lg_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_vb3lsztkmjw2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""51 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 51}}",application/json
+test_vb41pim763j7_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb41sd8b252s_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb42hr4fk1ur_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb6di99s8con_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb6tya4vfhpd_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb943xhtoiex_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_vb94ktizz60o_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'WwJHDdmlpebM' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""WwJHDdmlpebM""}}",application/json
+test_vb94vxq45x0j_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vb94ysohjrdt_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'BiPNMOfRnLEcg' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""BiPNMOfRnLEcg""}}",application/json
+test_vb95aclsz8dz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'hhUQJSbNpTypOqxh' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""hhUQJSbNpTypOqxh""}}",application/json
+test_vb95acmcy5wj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_vb9mtoxkp5ya_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbbwqo3rshtc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_vbccpvmktyyc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'DubrcThMDDZfU' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""DubrcThMDDZfU""}}",application/json
+test_vbem3qy8ijqc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbemvwqr6r74_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_vbemw31prmg5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbena45cvvht_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""false""}}",application/json
+test_vbencd147cde_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'7895' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""7895""}}",application/json
+test_vbennn3vx4rn_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vbeog53wtjqp_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'5460' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""5460""}}",application/json
+test_vbeotqgyhttl_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_vbf6dm4a4378_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -111.97836, ""latitude"": 39.30147}}}",application/json
+test_vbhd610359ic_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbhdhr7tf2p1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbhe9jjp89pv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'abIsJfTuNFzzTOl' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""abIsJfTuNFzzTOl""}}",application/json
+test_vbhwzelj4qb8_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vbhxd1ve7ckl_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -73.99429321289062, ""latitude"": 40.70544486444615}}}",application/json
+test_vbk61lp7wmk8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbkpltf6nsxj_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'TXjZjIVGyuturVldGN' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""TXjZjIVGyuturVldGN""}}",application/json
+test_vbmy7q439835_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_vbmz27jnc4z8_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'PhKDzzQKgoYlGOvG' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""PhKDzzQKgoYlGOvG""}}",application/json
+test_vbng7hylrj1x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""51 is greater than the maximum of 50"", ""field"": ""limit"", ""instance"": 51}}",application/json
+test_vbng7jzkk21y_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vbnhb0y15pib_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not one of ['best_match', 'rating', 'review_count', 'distance']"", ""field"": ""sort_by"", ""instance"": ""false""}}",application/json
+test_vbpq1wuji8h0_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_vbpqrcp1l4xh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbprjgiaq5h4_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'6180' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""6180""}}",application/json
+test_vbq8rgdsls2s_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vbshtyjp05km_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_vbsi7ts8555t_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vbsix7ancegn_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json
+test_vbsizucceskx_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vbszdai35hyv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'UhhfyEtkKcGq' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""UhhfyEtkKcGq""}}",application/json
+test_vbszdauur12x_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Too many results requested, limit+offset must be <= 1000.""}}",application/json
+test_vbszr9l12ss3_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vevb6c9u4xth_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vevb8z17l1dk_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_vevcqd4yo2g2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'CvaHqyYUtLDmiikriQh' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""CvaHqyYUtLDmiikriQh""}}",application/json
+test_vevd4vmm0go2_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'2388' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""2388""}}",application/json
+test_vevdlbl82ipf_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vevdwi3ur2oy_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_vevvimmlxs1f_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'oTrZeFxnlbMUtDVJn' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""oTrZeFxnlbMUtDVJn""}}",application/json
+test_veym1uqcma0p_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_veym1wpnezhw_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vf0v48zkgpiq_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'xbBjUtqEzeeWwUY' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""xbBjUtqEzeeWwUY""}}",application/json
+test_vf0xghmefrs1_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""radius"", ""instance"": ""true""}}",application/json
+test_vf1f01sj7dpv_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf3nafseibfq_getBusinesses,200,"{""businesses"": [], ""total"": 0, ""region"": {""center"": {""longitude"": -103.7512, ""latitude"": 36.043007}}}",application/json
+test_vf3ou6eu4w9u_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vf3p8jcxna5t_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf3q0lwyqov7_getBusinesses,500,"{""error"": {""code"": ""INTERNAL_ERROR"", ""description"": ""Something went wrong internally, please try again later.""}}",application/json
+test_vf46dsjrs6cz_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'tumsYXylzjVDulMIKd' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""tumsYXylzjVDulMIKd""}}",application/json
+test_vf475kvxo01h_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf6e9xkq2o8l_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""true""}}",application/json
+test_vf6ftyesfsqb_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'ppFcLesFUdPQ' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""ppFcLesFUdPQ""}}",application/json
+test_vf6ftyf2ph7n_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf6fwkqymlvc_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'SJTlyuQRVq' is not of type 'boolean'"", ""field"": ""open_now"", ""instance"": ""SJTlyuQRVq""}}",application/json
+test_vf6galux1zqw_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf6gaptjevz6_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf6gavomyh4k_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf6h0dkrjcqh_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'false' is not of type 'integer'"", ""field"": ""offset"", ""instance"": ""false""}}",application/json
+test_vf6huqnvuyid_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf961xavp9wm_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf98rx79enn5_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""Please specify a location or a latitude and longitude""}}",application/json
+test_vf9p5hydi63o_getBusinesses,400,"{""error"": {""code"": ""OPEN_AT_AND_NOW_PROVIDED"", ""description"": ""You must specify either open_at or open_now, not both.""}}",application/json
+test_vf9qbouupd2e_getBusinesses,400,"{""error"": {""code"": ""VALIDATION_ERROR"", ""description"": ""'true' is not of type 'integer'"", ""field"": ""limit"", ""instance"": ""true""}}",application/json

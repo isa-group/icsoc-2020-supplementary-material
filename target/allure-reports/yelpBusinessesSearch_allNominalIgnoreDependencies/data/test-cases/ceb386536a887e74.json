@@ -1,0 +1,78 @@
+{
+  "uid" : "ceb386536a887e74",
+  "name" : "test_1k252wwkv8awh_getBusinesses",
+  "fullName" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb.test_1k252wwkv8awh_getBusinesses",
+  "historyId" : "71ce4add604862e65bc70b8e7e361b78",
+  "time" : {
+    "start" : 1586861648691,
+    "stop" : 1586861649090,
+    "duration" : 399
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "98ed3125c9c40e98",
+      "name" : "Request",
+      "source" : "98ed3125c9c40e98.html",
+      "type" : "text/html",
+      "size" : 713
+    }, {
+      "uid" : "6123d6d9043285d4",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "6123d6d9043285d4.html",
+      "type" : "text/html",
+      "size" : 1179
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1k252wwkv8awh_getBusinesses"
+  }, {
+    "name" : "suite",
+    "value" : "yelpBusinessesSearch_allNominalIgnoreDependencies.YelpTest_1jew1cwjmd6bb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "27824@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ceb386536a887e74.json",
+  "parameterValues" : [ ]
+}

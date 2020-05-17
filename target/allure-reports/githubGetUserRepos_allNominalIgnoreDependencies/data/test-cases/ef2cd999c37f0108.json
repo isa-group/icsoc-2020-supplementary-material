@@ -1,0 +1,78 @@
+{
+  "uid" : "ef2cd999c37f0108",
+  "name" : "test_1ibh3wxt9gz78_getUserRepos",
+  "fullName" : "githubGetUserRepos_allNominalIgnoreDependencies.GitHubTest_t4l3nx3zrlmb.test_1ibh3wxt9gz78_getUserRepos",
+  "historyId" : "ce78864ab279218da6137f1847fec615",
+  "time" : {
+    "start" : 1586884111682,
+    "stop" : 1586884112515,
+    "duration" : 833
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80837caf72d2bcd9",
+      "name" : "Request",
+      "source" : "80837caf72d2bcd9.html",
+      "type" : "text/html",
+      "size" : 641
+    }, {
+      "uid" : "25a287a0da66341e",
+      "name" : "HTTP/1.1 422 Unprocessable Entity",
+      "source" : "25a287a0da66341e.html",
+      "type" : "text/html",
+      "size" : 1955
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "githubGetUserRepos_allNominalIgnoreDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "githubGetUserRepos_allNominalIgnoreDependencies.GitHubTest_t4l3nx3zrlmb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_1ibh3wxt9gz78_getUserRepos"
+  }, {
+    "name" : "suite",
+    "value" : "githubGetUserRepos_allNominalIgnoreDependencies.GitHubTest_t4l3nx3zrlmb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "23792@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef2cd999c37f0108.json",
+  "parameterValues" : [ ]
+}

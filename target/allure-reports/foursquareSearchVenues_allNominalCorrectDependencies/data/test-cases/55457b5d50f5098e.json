@@ -1,0 +1,91 @@
+{
+  "uid" : "55457b5d50f5098e",
+  "name" : "test_s18dspcev52b_searchVenues",
+  "fullName" : "foursquareSearchVenues_allNominalCorrectDependencies.FoursquareTest_qhkirxqymz52.test_s18dspcev52b_searchVenues",
+  "historyId" : "4a259f94658976c8105629baee5de3f3",
+  "time" : {
+    "start" : 1586865493736,
+    "stop" : 1586865494120,
+    "duration" : 384
+  },
+  "status" : "failed",
+  "statusMessage" : "Validation failed.\n[ERROR] [Path '/response/venues/0'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/1'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/2'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/3'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/4'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]",
+  "statusTrace" : "java.lang.AssertionError: Validation failed.\n[ERROR] [Path '/response/venues/0'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/1'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/2'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/3'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/4'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat foursquareSearchVenues_allNominalCorrectDependencies.FoursquareTest_qhkirxqymz52.test_s18dspcev52b_searchVenues(FoursquareTest_qhkirxqymz52.java:2560)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\r\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:143)\r\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:74)\r\n\tat es.us.isa.restest.main.IterativeExample.main(IterativeExample.java:86)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Validation failed.\n[ERROR] [Path '/response/venues/0'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/1'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/2'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/3'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/4'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]",
+    "statusTrace" : "java.lang.AssertionError: Validation failed.\n[ERROR] [Path '/response/venues/0'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/1'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/2'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/3'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\n[ERROR] [Path '/response/venues/4'] Object instance has properties which are not allowed by the schema: [\"hasPerk\",\"referralId\"]\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat foursquareSearchVenues_allNominalCorrectDependencies.FoursquareTest_qhkirxqymz52.test_s18dspcev52b_searchVenues(FoursquareTest_qhkirxqymz52.java:2560)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:94)\r\n\tat es.us.isa.restest.runners.RESTestRunner.testExecution(RESTestRunner.java:143)\r\n\tat es.us.isa.restest.runners.RESTestRunner.run(RESTestRunner.java:74)\r\n\tat es.us.isa.restest.main.IterativeExample.main(IterativeExample.java:86)\r\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "44109b7d00bed88b",
+      "name" : "Request",
+      "source" : "44109b7d00bed88b.html",
+      "type" : "text/html",
+      "size" : 1045
+    }, {
+      "uid" : "7c551a6900818730",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "7c551a6900818730.html",
+      "type" : "text/html",
+      "size" : 12472
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "foursquareSearchVenues_allNominalCorrectDependencies"
+  }, {
+    "name" : "testClass",
+    "value" : "foursquareSearchVenues_allNominalCorrectDependencies.FoursquareTest_qhkirxqymz52"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_s18dspcev52b_searchVenues"
+  }, {
+    "name" : "suite",
+    "value" : "foursquareSearchVenues_allNominalCorrectDependencies.FoursquareTest_qhkirxqymz52"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2NNIJVP"
+  }, {
+    "name" : "thread",
+    "value" : "30948@DESKTOP-2NNIJVP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Validation failures",
+      "traceRegex" : ".*Validation failed.*",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Failures",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "55457b5d50f5098e.json",
+  "parameterValues" : [ ]
+}
